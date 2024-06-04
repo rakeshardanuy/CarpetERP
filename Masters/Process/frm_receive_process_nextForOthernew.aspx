@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="JOB RECEIVE" Language="C#" AutoEventWireup="true" CodeFile="frm_receive_process_nextForOthernew.aspx.cs"
-    Inherits="Masters_Process_frm_receive_process_next" MasterPageFile="~/ERPmaster.master" %>
+    Inherits="Masters_Process_frm_receive_process_nextForOthernew" MasterPageFile="~/ERPmaster.master" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
@@ -19,7 +19,7 @@
             document.getElementById('<%=txtgetvalue.ClientID %>').value = eventArgs.get_value();
         }
         function NewForm() {
-            window.location.href = "frm_receive_process_nextforother.aspx";
+            window.location.href = "frm_receive_process_nextForOthernew.aspx";
         }
         function CloseForm() {
             window.location.href = "../../main.aspx";
