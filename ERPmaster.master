@@ -78,7 +78,7 @@
                 <uc1:ucmenu ID="ucmenu1" runat="server" />
                 <asp:Label ID="LblFrmName" ForeColor="White" Font-Bold="true" Font-Size="15px" runat="server"
                     CssClass="labelbold"></asp:Label>
-                <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="5000">
+                <asp:ScriptManager ID="ScriptManager1" runat="server" ScriptMode="Release" AsyncPostBackTimeout="5000">
                 </asp:ScriptManager>
             </td>
             <td width="25%">
