@@ -1,0 +1,51 @@
+﻿
+
+
+
+/***************************Get all Trigger of table ***************************************************/
+
+select so.name, text
+from sysobjects so, syscomments sc
+where type = 'TR'
+and so.id = sc.id
+and text like '%PROCESS_NAME_MASTER%'
+
+
+/***************************Get all Trigger of table ***************************************************/
+PROCESS_ISSUE_MASTER_
+PROCESS_ISSUE_DETAIL_
+PROCESS_RECEIVE_MASTER_
+PROCESS_RECEIVE_DETAIL_
+FUNCTION [DBO].GET_PENDING_STOCKNOTOBEISSUED_
+
+/***************************Get all Trigger of table ***************************************************/
+
+
+
+
+
+
+
+
+
+/***************************drop extra table of PROCESS_NAME_MASTER ***************************************************/
+
+
+DECLARE @TABLE_NAME nvarchar(45);
+DECLARE myCursor CURSOR FOR (select y.TABLE_NAME from PROCESS_NAME_MASTER x Right join
+(SELECT SUBSTRING (TABLE_NAME, 22, 5) as Id,TABLE_NAME FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND 
+TABLE_CATALOG='ExportERP.ARJAN' AND 
+TABLE_NAME Like 'PROCESS_ISSUE_DETAIL_%') y on x.PROCESS_NAME_ID=y.Id
+where x.PROCESS_NAME is null)
+OPEN myCursor
+FETCH NEXT FROM myCursor INTO @TABLE_NAME;
+While (@@FETCH_STATUS = 0)
+BEGIN
+PRINT 'EMP_ID: ' + @TABLE_NAME;
+DECLARE @DynSql nvarchar(max) = 'DROP TABLE ' + @TABLE_NAME;
+EXEC(@DynSql);
+FETCH NEXT FROM myCursor INTO @TABLE_NAME;
+END
+CLOSE myCursor;     
+DEALLOCATE myCursor;
