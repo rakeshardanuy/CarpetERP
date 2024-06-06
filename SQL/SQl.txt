@@ -42,8 +42,16 @@ OPEN myCursor
 FETCH NEXT FROM myCursor INTO @TABLE_NAME;
 While (@@FETCH_STATUS = 0)
 BEGIN
+
 PRINT 'EMP_ID: ' + @TABLE_NAME;
-DECLARE @DynSql nvarchar(max) = 'DROP TABLE ' + @TABLE_NAME;
+
+DECLARE @DynSql nvarchar(max) = 'IF NOT EXISTS(SELECT * FROM  '  
++ @TABLE_NAME+ ') BEGIN
+DROP TABLE ' + @TABLE_NAME+'
+End';
+
+
+
 EXEC(@DynSql);
 FETCH NEXT FROM myCursor INTO @TABLE_NAME;
 END
