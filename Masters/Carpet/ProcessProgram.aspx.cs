@@ -10,11 +10,15 @@ using System.Drawing;
 using System.IO;
 using System.Text;
 using ClosedXML.Excel;
+using System.Xml;
+using System.Xml.Linq;
 
 public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+       
+
         if (Session["varCompanyId"] == null)
         {
             Response.Redirect("~/Login.aspx");
@@ -37,24 +41,34 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
             {
                 Tdcustcode.Visible = false;
             }
+
+            XmlDocument doc = new XmlDocument();
+            doc.Load(Server.MapPath("~/App_Data/ProcessProgram.xml"));
+            XDocument _xml = XDocument.Parse(doc.InnerXml);
+            var result = _xml.Descendants("program").Where(x => x.Attribute("companyId").Value == Session["varcompanyId"].ToString()).FirstOrDefault();
+
             string str = @"Select PROCESS_NAME_ID, PROCESS_NAME from PROCESS_NAME_MASTER Where MasterCompanyId=" + Session["varCompanyId"];
-            if (Convert.ToInt16(Session["varcompanyId"]) == 16)
-            {
-                str = str + " and Process_name_id in (5, 143)";
-            }
-            else if (Convert.ToInt16(Session["varcompanyId"]) == 44)
-            {
-                str = str + " and Process_name_id in (12,11,5,18,8,29,54,34)";
-            }
-            else if (Convert.ToInt16(Session["varcompanyId"]) == 47)
-            {
-                str = str + " and Process_name_id in (5,45)";
-            }
-            else if (variable.Carpetcompany == "1")
-            {
-                str = str + " and Process_name_id=5";
-            }
-            
+            str = str + " and Process_name_id in (" + result.Attribute("process").Value + ")";
+
+
+
+            //if (Convert.ToInt16(Session["varcompanyId"]) == 16)
+            //{
+            //    str = str + " and Process_name_id in (5, 143)";
+            //}
+            //else if (Convert.ToInt16(Session["varcompanyId"]) == 44)
+            //{
+            //    str = str + " and Process_name_id in (12,11,5,18,8,29,54,34)";
+            //}
+            //else if (Convert.ToInt16(Session["varcompanyId"]) == 47)
+            //{
+            //    str = str + " and Process_name_id in (5,45)";
+            //}
+            //else if (variable.Carpetcompany == "1")
+            //{
+            //    str = str + " and Process_name_id=5";
+            //}
+
 
             str = str + " Order by PROCESS_NAME";
             UtilityModule.ConditionalComboFill(ref ddprocess, str, true, "--Select--");
@@ -140,7 +154,7 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
         }
         else
         {
-             str1 = @"select Distinct P.PPID,cast(P.ChallanNo as varchar) + ' # ' + Orderno.OrderNo 
+            str1 = @"select Distinct P.PPID,cast(P.ChallanNo as varchar) + ' # ' + Orderno.OrderNo 
                     From ProcessProgram P(Nolock) 
                     JOIN OrderMaster om(Nolock) on p.Order_ID=OM.OrderId 
                     JOIN customerinfo CI(Nolock) ON OM.CustomerId=CI.CustomerId
@@ -148,7 +162,7 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
                     Where P.Process_id=" + ddprocess.SelectedValue + " and OM.CompanyiD=" + ddcompany.SelectedValue;
         }
 
-        
+
 
         if (Tdcustcode.Visible == true)
         {
@@ -380,7 +394,7 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
 
             //if (Session["VarCompanyId"].ToString() == "30")
             //{
-                Session["ViewState"] = _arrPara[3].Value.ToString();
+            Session["ViewState"] = _arrPara[3].Value.ToString();
             //}
 
             txtprocessprogram.Text = _arrPara[7].Value.ToString();
@@ -454,8 +468,8 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
 
 
 
-                            
-                            
+
+
                             }
                             else
                             {
@@ -682,7 +696,7 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
                 fill_ConsumptionGride();
             }
         }
-        catch (Exception ex)    
+        catch (Exception ex)
         {
             UtilityModule.MessageAlert(ex.Message, "Master/Carpet/ProcessProgram.aspx");
             tran.Rollback();
@@ -1554,9 +1568,9 @@ public partial class Masters_Carpet_ProcessProgram : System.Web.UI.Page
                         {
                             Session["rptFileName"] = "~\\Reports\\rptdyeingprogramnewMWS.rpt";
                         }
-                        else 
-                        { 
-                            Session["rptFileName"] = "~\\Reports\\rptdyeingprogramnew.rpt"; 
+                        else
+                        {
+                            Session["rptFileName"] = "~\\Reports\\rptdyeingprogramnew.rpt";
                         }
                     }
 
