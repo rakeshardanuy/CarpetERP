@@ -6932,7 +6932,10 @@ V_FinishedItemDetail.designName,V_FinishedItemDetail.ColorName,V_FinishedItemDet
         {
             sp = "PRO_FINISHINGISSUERECEIVESUMMARYALLAGNI";
         }
-        else { sp = "PRO_FINISHINGISSUERECEIVESUMMARYREPORTAGNI"; }
+        else { 
+            sp = "PRO_FINISHINGISSUERECEIVESUMMARYREPORTAGNI";
+        
+        }
         ds = SqlHelper.ExecuteDataset(tran, CommandType.StoredProcedure, sp, param);
         //ds = SqlHelper.ExecuteDataset(tran, CommandType.StoredProcedure, sp, param);
 
