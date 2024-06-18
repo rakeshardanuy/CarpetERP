@@ -191,7 +191,7 @@ public sealed class SqlHelper
         // Set the command text (stored procedure name or SQL statement)
         command.CommandText = commandText;
         //
-     
+        command.CommandTimeout = 600;
 
         // If we were provided a transaction, assign it
         if (transaction != null)
