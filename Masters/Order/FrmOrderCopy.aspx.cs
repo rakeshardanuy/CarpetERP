@@ -120,7 +120,7 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
         {
             con.Open();
             string strsql = @"select OD.OrderDetailId,VF.ITEM_NAME AS ITEM_NAME,QualityName+'--' +DesignName+'--'+ColorName+'--'+ShapeName+'--'+
-            CASE WHEN OD.ORDERUnitId=1 Then SizeMtr Else SizeFt End Description,OD.TotalArea Area,OD.QtyRequired Qty,OD.UnitRate Rate,
+            CASE WHEN OD.ORDERUnitId=1 Then SizeMtr Else SizeInch End Description,OD.TotalArea Area,OD.QtyRequired Qty,OD.UnitRate Rate,
             Round(Od.Amount,2) Amount,OD.Remark,'" + TxtOrderDate.Text + @"' As DispatchDate,OrderCaltype From OrderDetail OD,V_FinishedItemDetail VF
             Where OD.Item_Finished_Id=VF.Item_Finished_Id And OrderId=" + DDFromOrderNo.SelectedValue + " And VF.MasterCompanyId=" + Session["varCompanyId"]+@"
             Order by QualityName ";
@@ -157,7 +157,7 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
         DataSet ds = null;
         SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
         string strsql = @"select OD.OrderDetailId As DetailId,VF.ITEM_NAME AS ITEM_NAME,QualityName+'  '+DesignName+'  '+ColorName+'  '+ShapeName+'  '+
-                            CASE WHEN OD.ORDERUnitId=1 Then SizeMtr Else SizeFt End Description,OD.TotalArea*OD.QtyRequired Area,OD.QtyRequired Qty,OD.UnitRate As Rate,
+                            CASE WHEN OD.ORDERUnitId=1 Then SizeMtr Else SizeInch End Description,OD.TotalArea*OD.QtyRequired Area,OD.QtyRequired Qty,OD.UnitRate As Rate,
                             Round(Od.Amount,2) Amount From OrderDetail OD,V_FinishedItemDetail VF,ITEM_PARAMETER_MASTER IPM,Unit U,CurrencyInfo Ci
                             where OD.Item_Finished_Id=VF.Item_Finished_Id  And OD.Item_Finished_Id=IPM.Item_Finished_Id
                              And U.UnitId=OD.OrderUnitId And Ci.CurrencyId=Od.CurrencyId And OrderId=" + Session["order_id"] + " And VF.MasterCompanyId=" + Session["varCompanyId"];
@@ -280,8 +280,9 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
                 _arrpara[16] = new SqlParameter("@VarCurrentFlag", SqlDbType.Int);
                 _arrpara[17] = new SqlParameter("@VarFinishedid", SqlDbType.Int);
                 _arrpara[18] = new SqlParameter("@VarNewOrderDetailId", SqlDbType.Int);
-                _arrpara[19] = new SqlParameter("@UserId", SqlDbType.Int);
-                _arrpara[20] = new SqlParameter("@RepeatOrderId", SqlDbType.Int);
+
+                //_arrpara[19] = new SqlParameter("@UserId", SqlDbType.Int);
+                //_arrpara[20] = new SqlParameter("@RepeatOrderId", SqlDbType.Int);
 
                 _arrpara[1].Value = DDCustomerCode.SelectedValue;
                 _arrpara[2].Value = DDCompanyName.SelectedValue;
@@ -296,8 +297,10 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
                 _arrpara[16].Value = CHKFORCURRENTCONSUMPTION.Checked == true ? 1 : 0;
                 _arrpara[17].Value = ParameterDirection.Output;
                 _arrpara[18].Value = ParameterDirection.Output;
-                _arrpara[19].Value = Session["VarUserId"];
-                _arrpara[20].Value = DDFromOrderNo.SelectedValue;
+
+                //_arrpara[19].Value = Session["VarUserId"];
+                //_arrpara[20].Value = DDFromOrderNo.SelectedValue;
+
 
                 for (int i = 0; i < DGOrderDetail.Rows.Count; i++)
                 {
