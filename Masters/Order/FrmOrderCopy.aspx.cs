@@ -281,8 +281,8 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
                 _arrpara[17] = new SqlParameter("@VarFinishedid", SqlDbType.Int);
                 _arrpara[18] = new SqlParameter("@VarNewOrderDetailId", SqlDbType.Int);
 
-                //_arrpara[19] = new SqlParameter("@UserId", SqlDbType.Int);
-                //_arrpara[20] = new SqlParameter("@RepeatOrderId", SqlDbType.Int);
+                _arrpara[19] = new SqlParameter("@UserId", SqlDbType.Int);
+                _arrpara[20] = new SqlParameter("@RepeatOrderId", SqlDbType.Int);
 
                 _arrpara[1].Value = DDCustomerCode.SelectedValue;
                 _arrpara[2].Value = DDCompanyName.SelectedValue;
@@ -298,8 +298,8 @@ public partial class Masters_Order_FrmOrderCopy : System.Web.UI.Page
                 _arrpara[17].Value = ParameterDirection.Output;
                 _arrpara[18].Value = ParameterDirection.Output;
 
-                //_arrpara[19].Value = Session["VarUserId"];
-                //_arrpara[20].Value = DDFromOrderNo.SelectedValue;
+                _arrpara[19].Value = Session["VarUserId"];
+                _arrpara[20].Value = DDFromOrderNo.SelectedValue;
 
 
                 for (int i = 0; i < DGOrderDetail.Rows.Count; i++)

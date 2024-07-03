@@ -1,8 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ERP", ".", "{6B10AB75-F76C-47AE-938E-83ED32714179}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ERP-Arjan", ".", "{6B10AB75-F76C-47AE-938E-83ED32714179}"
 	ProjectSection(WebsiteProperties) = preProject
+		Frontpage = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/ERP"
 		Debug.AspNetCompiler.PhysicalPath = "..\ERP\"
@@ -18,7 +19,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ERP", ".", "{6B10AB75-F76C-
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "59756"
+		VWDPort = "54797"
 	EndProjectSection
 EndProject
 Global
