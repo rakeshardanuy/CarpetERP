@@ -17,7 +17,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
         {
             Response.Redirect("~/Login.aspx");
         }
-        string Qry=string.Empty;
+        string Qry = string.Empty;
         if (!IsPostBack)
         {
             if (Session["varCompanyId"].ToString() == "6")
@@ -32,15 +32,16 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             Inner join OrderMaster om on om.customerid=ci.customerid And ci.MasterCompanyId=" + Session["varCompanyId"] + @"
             select GoDownID,GodownName from GodownMaster  order by GodownName";
             }
-            else {
+            else
+            {
 
                 Qry = @"Select Distinct EmpId,EmpName From Empinfo EI,PurchaseIndentIssue PII Where EI.EmpId=Partyid  And EI.MasterCompanyId=" + Session["varCompanyId"] + @" Order By EmpName
             select Distinct CI.CompanyId,Companyname from Companyinfo CI,Company_Authentication CA Where CI.CompanyId=CA.CompanyId And CA.USERID=" + Session["varuserId"] + " And CI.MasterCompanyId=" + Session["varCompanyId"] + @" Order by Companyname            
             select distinct ci.customerid,ci.Customercode+'/'+CompanyName From customerinfo ci 
             Inner join OrderMaster om on om.customerid=ci.customerid And ci.MasterCompanyId=" + Session["varCompanyId"] + @"
             select GoDownID,GodownName from GodownMaster  order by GodownName";
-            
-            
+
+
             }
             //Inner join Jobassigns JA ON OM.Orderid=JA.Orderid";
             DataSet ds = SqlHelper.ExecuteDataset(Qry);
@@ -111,7 +112,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     RDpurdelivRpt.Visible = false;
                     RDpurchasedetail.Visible = false;
                     break;
-                case "38":                   
+                case "38":
                     RDPurchaseOrderReceiveBuyerCode.Visible = true;
                     break;
             }
@@ -128,7 +129,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             {
                 chkexcelexport.Checked = false;
             }
-            
+
         }
     }
     protected void ddcustomer_SelectedIndexChanged(object sender, EventArgs e)
@@ -407,7 +408,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 }
 
 
-                
+
                 if (ChkForDate.Checked == true)
                 {
                     qry = qry + " And vo.orderdate >= '" + TxtFRDate.Text + "' and vo.orderdate <='" + TxtTODate.Text + "'";
@@ -725,7 +726,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             qry = qry + "   order by vo.pindentissueid, vo.OrderID";
 
             ds = SqlHelper.ExecuteDataset(ErpGlobal.DBCONNECTIONSTRING, CommandType.Text, qry);
-            
+
             Session["ReportPath"] = "Reports/RptPurchaseOrderRecPendingDetail.rpt";
             Session["dsFileName"] = "~\\ReportSchema\\RptPurchaseOrderRecPendingDetail.xsd";
         }
@@ -825,7 +826,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
         }
 
         #endregion
-         SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
+        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
         if (con.State == ConnectionState.Closed)
         {
             con.Open();
@@ -836,8 +837,8 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.CommandTimeout = 3000;
 
-            cmd.Parameters.AddWithValue("@CompanyId", ddCompName.SelectedValue);           
-            cmd.Parameters.AddWithValue("@Where",Where);
+            cmd.Parameters.AddWithValue("@CompanyId", ddCompName.SelectedValue);
+            cmd.Parameters.AddWithValue("@Where", Where);
 
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -969,7 +970,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             con.Dispose();
         }
 
-        
+
         //SqlParameter[] param = new SqlParameter[2];
         //param[0] = new SqlParameter("@CompanyId", ddCompName.SelectedValue);
         //param[1] = new SqlParameter("@Where", Where);
@@ -1321,6 +1322,8 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
     }
     protected void RDSupplyorder_CheckedChanged(object sender, EventArgs e)
     {
+
+        tReceiveOnly.Visible = true;
         TrStatus.Visible = true;
         Trgodown.Visible = false;
         trChkForDate.Visible = true;
@@ -1357,16 +1360,16 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                                                           inner join customerinfo CI on ci.CustomerId=OM.CustomerId order by Customercode", true, "Select CustomerCode");
         }
         else
-        { 
-          UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode+'/'+CI.CompanyName as Customercode from Ordermaster OM
+        {
+            UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode+'/'+CI.CompanyName as Customercode from Ordermaster OM
                                                           inner join customerinfo CI on ci.CustomerId=OM.CustomerId order by Customercode", true, "Select CustomerCode");
-        
+
         }
     }
     protected void dsuppl_SelectedIndexChanged(object sender, EventArgs e)
     {
         string str = "";
-        if (RDSupplyorder.Checked == true || RDPurchaseOrderRecPendingDetail.Checked==true)
+        if (RDSupplyorder.Checked == true || RDPurchaseOrderRecPendingDetail.Checked == true)
         {
             str = "select distinct pii.PIndentIssueId,pii.ChallanNo from PurchaseIndentIssue PII left Join OrderMaster OM on Pii.orderid=Om.orderid  Where pii.PartyId=" + dsuppl.SelectedValue + " And pii.CompanyId=" + ddCompName.SelectedValue + "";
             if (ddcustomer.SelectedIndex > 0)
@@ -1675,7 +1678,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 TDExcelExport.Visible = false;
             }
         }
-        
+
     }
     protected void RDPurchaseMaterialReceive_CheckedChanged(object sender, EventArgs e)
     {
@@ -2573,6 +2576,14 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             Where = Where + " And vf.shadecolorid=" + ddlshade.SelectedValue;
             filterby = filterby + " Shadecolor : " + ddlshade.SelectedItem.Text;
         }
+
+        if (chkReceiveOnly.Checked)
+        {
+            Where = Where + " And vo.RECQTY>0";
+
+        }
+
+
         #endregion
         SqlParameter[] param = new SqlParameter[3];
         param[0] = new SqlParameter("@FromDate", TxtFRDate.Text);
@@ -2625,18 +2636,26 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             sht.Range("S3").Value = "Receive Remark";
             sht.Range("T3").Value = "Order Remark";
 
+
+
             if (Session["VarCompanyNo"].ToString() == "21")
             {
                 sht.Range("U3").Value = "GateIn No";
             }
-            else
+
+            if (chkReceiveOnly.Checked)
             {
-                sht.Range("U3").Value = "";
+                sht.Range("U3").Value = "Amount";
+
             }
 
-            sht.Range("Q3:T3").Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Right);
-            sht.Range("A3:T3").Style.Font.SetBold();
-            using (var a = sht.Range("A3:T3"))
+
+
+
+
+            sht.Range("Q3:V3").Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Right);
+            sht.Range("A3:V3").Style.Font.SetBold();
+            using (var a = sht.Range("A3:V3"))
             {
                 a.Style.Border.RightBorder = XLBorderStyleValues.Thin;
                 a.Style.Border.LeftBorder = XLBorderStyleValues.Thin;
@@ -2655,7 +2674,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 for (int i = 0; i < ds1.Tables[0].Rows.Count; i++)
                 {
 
-                    using (var a = sht.Range("A" + row + ":T" + row))
+                    using (var a = sht.Range("A" + row + ":V" + row))
                     {
                         a.Style.Border.RightBorder = XLBorderStyleValues.Thin;
                         a.Style.Border.LeftBorder = XLBorderStyleValues.Thin;
@@ -2699,10 +2718,21 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     {
                         sht.Range("U" + row).Value = ds1.Tables[0].Rows[i]["GateInNo"];
                     }
-                    else
+
+                    if (chkReceiveOnly.Checked)
                     {
-                        sht.Range("U" + row).Value = "";
+                        var _amount = Convert.ToDecimal(ds1.Tables[0].Rows[i]["Rate"]) * Convert.ToDecimal(ds1.Tables[0].Rows[i]["Recqty"]);
+
+                        sht.Range("U" + row).Value = _amount.ToString("N2");
+
+
                     }
+
+
+
+
+
+
 
                     row = row + 1;
                 }
@@ -2883,7 +2913,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     TempQuality = ds.Tables[0].Rows[i]["QUALITYNAME"].ToString();
                     row = row + 1;
                 }
-                
+
                 decimal GST = 0, IGST = 0;
                 if (Rowfrom == 0)
                 {
@@ -2935,9 +2965,9 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     a.Style.Border.LeftBorder = XLBorderStyleValues.Thin;
                     a.Style.Border.TopBorder = XLBorderStyleValues.Thin;
                     a.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
-                }                
+                }
 
-                
+
                 row = row + 1;
             }
 
@@ -3257,17 +3287,18 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
         if (Session["VarCompanyNo"].ToString() == "38")
         {
             TrStatus.Visible = false;
-        }       
+        }
 
         if (Session["varcompanyid"].ToString() == "44")
         {
             UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode as Customercode from Ordermaster OM
                                                           inner join customerinfo CI on ci.CustomerId=OM.CustomerId order by Customercode", true, "Select CustomerCode");
         }
-        else { 
-          UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode+'/'+CI.CompanyName as Customercode from Ordermaster OM
+        else
+        {
+            UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode+'/'+CI.CompanyName as Customercode from Ordermaster OM
                                                           inner join customerinfo CI on ci.CustomerId=OM.CustomerId order by Customercode", true, "Select CustomerCode");
-        
+
         }
 
     }
@@ -4078,7 +4109,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
         {
             UtilityModule.ConditionalComboFill(ref ddcustomer, @"select Distinct CI.CustomerId,CI.CustomerCode+'/'+CI.CompanyName as Customercode from Ordermaster OM
                                                           inner join customerinfo CI on ci.CustomerId=OM.CustomerId order by Customercode", true, "Select CustomerCode");
-        
+
         }
     }
     protected void RDPurchaseOrderRecPendingDetail_CheckedChanged(object sender, EventArgs e)
@@ -4463,14 +4494,14 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             sht.Range("Q3").Value = "Pending Qty";
             sht.Range("P3:Q3").Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Right);
             sht.Range("A3:X3").Style.Font.SetBold();
-            sht.Range("R3").Value = "Gate In NO";           
-           sht.Range("S3").Value = "";
-           sht.Column(17).Hide();
-           sht.Range("T3").Value = "Late By";
-           sht.Range("U3").Value = "RequestedBy";
-           sht.Range("U3:V3").Merge();
-           sht.Range("W3").Value = "RequestedFor";
-           sht.Range("W3:X3").Merge();
+            sht.Range("R3").Value = "Gate In NO";
+            sht.Range("S3").Value = "";
+            sht.Column(17).Hide();
+            sht.Range("T3").Value = "Late By";
+            sht.Range("U3").Value = "RequestedBy";
+            sht.Range("U3:V3").Merge();
+            sht.Range("W3").Value = "RequestedFor";
+            sht.Range("W3:X3").Merge();
             using (var a = sht.Range("A3:X3"))
             {
                 a.Style.Border.RightBorder = XLBorderStyleValues.Thin;
@@ -4503,10 +4534,10 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     SGSTIGSTValue = ((Convert.ToDecimal(ds1.Tables[0].Rows[i]["Orderqty"]) * Convert.ToDecimal(ds1.Tables[0].Rows[i]["Rate"])) * Convert.ToDecimal(ds1.Tables[0].Rows[i]["SGSTIGST"]) / 100);
                     decimal NetAmount = 0;
                     NetAmount = (Convert.ToDecimal(ds1.Tables[0].Rows[i]["Orderqty"]) * Convert.ToDecimal(ds1.Tables[0].Rows[i]["Rate"])) + SGSTIGSTValue;
-                    sht.Range("J" + row).SetValue(Math.Round(NetAmount,2));
+                    sht.Range("J" + row).SetValue(Math.Round(NetAmount, 2));
 
                     sht.Range("K" + row).SetValue(ds1.Tables[0].Rows[i]["Deliverydate"]);
-                    sht.Range("L" + row).FormulaA1 = "=J" + row + '/' + "$H$"+row;
+                    sht.Range("L" + row).FormulaA1 = "=J" + row + '/' + "$H$" + row;
                     sht.Range("M" + row).SetValue(ds1.Tables[0].Rows[i]["Recdate"]);
                     sht.Range("N" + row).SetValue(Convert.ToDecimal(ds1.Tables[0].Rows[i]["Recqty"]) + Convert.ToDecimal(ds1.Tables[0].Rows[i]["Qtyreturn"]));
                     sht.Range("O" + row).SetValue(ds1.Tables[0].Rows[i]["Returnchallan"]);
@@ -4524,7 +4555,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     sht.Range("S" + row).SetValue("");
                     sht.Range("T" + row).SetValue(ds1.Tables[0].Rows[i]["DayDifference"]);
                     sht.Range("U" + row).SetValue(ds1.Tables[0].Rows[i]["requestby"]);
-                    sht.Range("U" + row+":V"+row).Merge();
+                    sht.Range("U" + row + ":V" + row).Merge();
                     sht.Range("W" + row).SetValue(ds1.Tables[0].Rows[i]["requestfor"]);
                     sht.Range("W" + row + ":X" + row).Merge();
 
@@ -4704,7 +4735,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 sht.Range("Q" + row).Value = "PUR. AMOUNT";
                 sht.Range("R" + row).Value = "GST AMOUNT";
                 sht.Range("S" + row).Value = "NET AMOUNT";
-                sht.Range("T" + row).Value = "NET RATE"; 
+                sht.Range("T" + row).Value = "NET RATE";
 
                 sht.Range("P" + row + ":T" + row).Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Right);
                 sht.Range("A" + row + ":T" + row).Style.Font.SetBold();
@@ -4734,11 +4765,11 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                     sht.Range("N" + row).SetValue(ds.Tables[0].Rows[i]["InwardsNo"]);
                     sht.Range("O" + row).SetValue(ds.Tables[0].Rows[i]["Rate"]);
                     sht.Range("P" + row).SetValue(ds.Tables[0].Rows[i]["GSTPercentage"]);
-                    sht.Range("Q" + row).SetValue(ds.Tables[0].Rows[i]["Amount"]);                   
+                    sht.Range("Q" + row).SetValue(ds.Tables[0].Rows[i]["Amount"]);
 
-                    sht.Range("R" + row).FormulaA1 = ("=Round(Q" + row + '*' + ("$P$" + row + "") + '/' + 100+ ",2)");
+                    sht.Range("R" + row).FormulaA1 = ("=Round(Q" + row + '*' + ("$P$" + row + "") + '/' + 100 + ",2)");
                     //sht.Range("R" + row).Style.NumberFormat.Format = "#,##0.00";
-                    sht.Range("S" + row).FormulaA1 = ("=Round(Q" + row + '+' + ("$R$" + row + "")+ ",2)");
+                    sht.Range("S" + row).FormulaA1 = ("=Round(Q" + row + '+' + ("$R$" + row + "") + ",2)");
                     sht.Range("T" + row).FormulaA1 = ("=Round(S" + row + '/' + ("$G$" + row + "") + ",2)");
 
                     //TQty = TQty + Convert.ToDecimal(ds.Tables[0].Rows[i]["ACTUALRECQTY"]);
@@ -4746,7 +4777,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
 
                     //sht.Range("I" + row).FormulaA1 = "=G" + row + '*' + ("$H$" + row + "");
                     //TAmount = TAmount + (Convert.ToDecimal(ds1.Tables[0].Rows[i]["ACTUALRECQTY"]) * Convert.ToDecimal(ds1.Tables[0].Rows[i]["Rate"]));
-                   
+
 
                     row = row + 1;
                 }
@@ -4944,7 +4975,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 sht.Range("H" + row + ":J" + row).Style.Alignment.SetHorizontal(XLAlignmentHorizontalValues.Right);
                 sht.Range("A" + row + ":M" + row).Style.Font.SetBold();
 
-                row = row+1;
+                row = row + 1;
                 int Rowfrom = 0;
                 for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
                 {
@@ -5090,7 +5121,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             con.Close();
             con.Dispose();
         }
-           
+
     }
 
     protected void PurchaseOrderReceiveOrderWiseVikramKhamaria()
@@ -5211,7 +5242,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
             sht.Range("B3").Value = "Customer OrderNo";
             sht.Range("C3").Value = "Item Description";
             sht.Range("D3").Value = "Vendor Name";
-            sht.Range("E3").Value = "Purchase OrderNo";            
+            sht.Range("E3").Value = "Purchase OrderNo";
             sht.Range("F3").Value = "Required Qty";
             sht.Range("G3").Value = "PurchaseOrder Qty";
             sht.Range("H3").Value = "Balance To Order";
@@ -5246,7 +5277,7 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
                 sht.Range("H" + row).SetValue(ds.Tables[0].Rows[i]["BalanceToOrder"]);
                 sht.Range("I" + row).SetValue(ds.Tables[0].Rows[i]["PurchaseReceiveQty"]);
                 sht.Range("J" + row).SetValue(ds.Tables[0].Rows[i]["BalanceToReceive"]);
-               
+
 
                 //sht.Range("A" + row).SetValue(ds.Tables[0].Rows[i]["CustomerCode"]);
                 //sht.Range("B" + row).SetValue(ds.Tables[0].Rows[i]["CustomerOrderNo"]);

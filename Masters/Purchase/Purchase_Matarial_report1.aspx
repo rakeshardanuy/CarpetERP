@@ -288,6 +288,16 @@
                                         </asp:CalendarExtender>
                                     </td>
                                 </tr>
+
+                                    <tr runat="server" id="tReceiveOnly" visible="false">
+                                    <td colspan="2">
+                                        <asp:CheckBox ID="chkReceiveOnly" Text="For ReceiveOnly" CssClass="checkboxbold" runat="server" />
+                                    </td>
+                                </tr>
+
+
+
+
                                 <tr runat="server" id="TRPurchaseSumm" visible="false">
                                     <td colspan="2">
                                         <asp:CheckBox ID="chkpurchasesumm" Text="For Summary" CssClass="checkboxbold" runat="server" />
