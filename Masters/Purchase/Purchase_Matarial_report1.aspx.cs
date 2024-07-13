@@ -2511,7 +2511,36 @@ public partial class Masters_Purchase_Purchase_Matarial_report1 : System.Web.UI.
         #region Where Condition
         string Where = "";
         string filterby = "From : " + TxtFRDate.Text + "  To : " + TxtTODate.Text;
-        Where = Where + " and vo.orderdate>='" + TxtFRDate.Text + "' and vo.orderdate<='" + TxtTODate.Text + "'";
+
+     
+
+
+
+
+
+
+        if (chkReceiveOnly.Checked)
+        {
+            Where = Where + " and vo.recdate>='" + TxtFRDate.Text + "' and vo.recdate<='" + TxtTODate.Text + "'";
+
+
+        }
+        else
+        {
+            Where = Where + " and vo.orderdate>='" + TxtFRDate.Text + "' and vo.orderdate<='" + TxtTODate.Text + "'";
+
+
+        }
+
+
+
+
+
+
+
+
+
+
         if (ddCompName.SelectedIndex > 0)
         {
             Where = Where + " And vo.companyid=" + ddCompName.SelectedValue;
