@@ -176,7 +176,7 @@
                         TRPOStatusReportType2.Visible = false;
                     }
                 }
-               
+
             }
             if (RDinternalfoliodetail.Checked == true)
             {
@@ -242,7 +242,7 @@
                 TRMonthyear.Visible = true;
                 TRSRNo.Visible = false;
             }
-            if (RDOrderShippedInvoiceWiseDetail.Checked==true)
+            if (RDOrderShippedInvoiceWiseDetail.Checked == true)
             {
                 TRcheckdate.Visible = true;
                 ChkForRecQty.Visible = false;
@@ -253,22 +253,22 @@
                 Trorderstatus.Visible = false;
                 TDWithOrderValue.Visible = false;
                 TRSRNo.Visible = false;
-                
+
 
             }
-             if (RDProcessDetails.Checked==true)
+            if (RDProcessDetails.Checked == true)
             {
                 TRCustomerCode.Visible = true;
                 TRcategory.Visible = true;
                 TritemName.Visible = true;
-               
+
                 TROrderNo.Visible = true;
                 Trquality.Visible = true;
                 Trdesign.Visible = true;
                 Trcolor.Visible = true;
-                
+
                 TRSRNo.Visible = false;
-                
+
             }
         }
     </script>
@@ -276,8 +276,7 @@
         <ContentTemplate>
             <table style="width: 90%; height: 100%;">
                 <tr style="width: 100%">
-                    <td style="width: 80px">
-                    </td>
+                    <td style="width: 80px"></td>
                     <td>
                         <div style="width: 250px; max-height: 100%; float: left; border-style: solid; border-width: thin">
                             <table>
@@ -402,7 +401,7 @@
                                     </td>
                                 </tr>
 
-                                 <tr id="TROrderSummaryWithAllProcess" runat="server" visible="false">
+                                <tr id="TROrderSummaryWithAllProcess" runat="server" visible="false">
                                     <td>
                                         <asp:RadioButton ID="RDOrderSummaryWithAllProcess" Text="Order Summary With All Jobs"
                                             runat="server" Font-Bold="true" GroupName="OrderType" AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />
@@ -416,28 +415,31 @@
                                     </td>
                                 </tr>
 
-                                <tr  id="TROrderConsumptionWithIndentIssRec" runat="server" visible="false">
+                                <tr id="TROrderConsumptionWithIndentIssRec" runat="server" visible="false">
                                     <td>
-                                        <asp:RadioButton ID="RDOrderConsumptionWithIndentIssRec" Text="Order Consumption With Indent Iss/Rec" runat="server"
+                                        <asp:RadioButton ID="RDOrderConsumptionWithIndentIssRec" Text="Order Consumption With Indent Iss/Rec"
+                                            runat="server"
                                             Font-Bold="true" GroupName="OrderType" AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />
                                     </td>
                                 </tr>
 
-                                 <tr id="TROrderDetailWIP" runat="server" visible="false">
+                                <tr id="TROrderDetailWIP" runat="server" visible="false">
                                     <td>
                                         <asp:RadioButton ID="RDOrderDetailWIP" Text="Order Detail WIP"
                                             runat="server" Font-Bold="true" GroupName="OrderType" AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />
                                     </td>
                                 </tr>
-                                 <tr  id="TROrderConsumptionSummaryWithWeaverIssRec" runat="server" visible="false">
+                                <tr id="TROrderConsumptionSummaryWithWeaverIssRec" runat="server" visible="false">
                                     <td>
-                                        <asp:RadioButton ID="RDOrderConsumptionSummaryWithWeaverIssRec" Text="Order Consumption Summary With Weaver Iss/Rec" runat="server"
+                                        <asp:RadioButton ID="RDOrderConsumptionSummaryWithWeaverIssRec" Text="Order Consumption Summary With Weaver Iss/Rec"
+                                            runat="server"
                                             Font-Bold="true" GroupName="OrderType" AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />
                                     </td>
                                 </tr>
-                                <tr  id="TROrderConsumptionRecMaterialPending" runat="server" visible="false">
+                                <tr id="TROrderConsumptionRecMaterialPending" runat="server" visible="false">
                                     <td>
-                                        <asp:RadioButton ID="RDOrderConsumptionRecMaterialPending" Text="Order Consumption Rec Material Pending Detail" runat="server"
+                                        <asp:RadioButton ID="RDOrderConsumptionRecMaterialPending" Text="Order Consumption Rec Material Pending Detail"
+                                            runat="server"
                                             Font-Bold="true" GroupName="OrderType" AutoPostBack="true" OnCheckedChanged="RadioButton_CheckedChanged" />
                                     </td>
                                 </tr>
@@ -476,17 +478,8 @@
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
-                                  <tr id="TROrderNo" runat="server">
-                                    <td>
-                                        <asp:Label ID="Label3" runat="server" Text="OrderNo" CssClass="labelbold"></asp:Label>
-                                    </td>
-                                    <td>
-                                        <asp:DropDownList ID="DDOrderNo" runat="server" Width="250px" AutoPostBack="true"
-                                            CssClass="dropdown" OnSelectedIndexChanged="DDOrderNo_SelectedIndexChanged">
-                                        </asp:DropDownList>
-                                    </td>
-                                </tr>
-                                
+
+
                                 <tr id="TRCustomerCode" runat="server">
                                     <td>
                                         <asp:Label ID="Label2" runat="server" Text="CustomerCode" CssClass="labelbold"></asp:Label>
@@ -497,13 +490,22 @@
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
-                              
-                                <tr id="TREmployeeName" runat="server" visible = "false">
+                                <tr id="TROrderNo" runat="server">
+                                    <td>
+                                        <asp:Label ID="Label3" runat="server" Text="OrderNo" CssClass="labelbold"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:DropDownList ID="DDOrderNo" runat="server" Width="250px" AutoPostBack="true"
+                                            CssClass="dropdown" OnSelectedIndexChanged="DDOrderNo_SelectedIndexChanged">
+                                        </asp:DropDownList>
+                                    </td>
+                                </tr>
+                                <tr id="TREmployeeName" runat="server" visible="false">
                                     <td>
                                         <asp:Label ID="Label12" runat="server" Text="Employee Name" CssClass="labelbold"></asp:Label>
                                     </td>
                                     <td>
-                                        <asp:DropDownList ID="DDEmployeeName" runat="server" Width="250px" CssClass="dropdown" >
+                                        <asp:DropDownList ID="DDEmployeeName" runat="server" Width="250px" CssClass="dropdown">
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
@@ -612,12 +614,12 @@
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
-                                  <tr id="TROrderType" runat="server" visible="false">
+                                <tr id="TROrderType" runat="server" visible="false">
                                     <td>
                                         <asp:Label ID="Label13" Text="Order Type" CssClass="labelbold" runat="server" />
                                     </td>
                                     <td>
-                                        <asp:DropDownList ID="DDOrderType" CssClass="dropdown" runat="server">                                                                                     
+                                        <asp:DropDownList ID="DDOrderType" CssClass="dropdown" runat="server">
                                         </asp:DropDownList>
                                     </td>
                                 </tr>
@@ -629,34 +631,36 @@
                                             OnCheckedChanged="ChkForRecQty_CheckedChanged" AutoPostBack="true" />
                                     </td>
                                 </tr>
-                                  <tr id="TRPOStatusReportType2" runat="server" visible="false">
+                                <tr id="TRPOStatusReportType2" runat="server" visible="false">
                                     <td colspan="2" align="left">
-                                        <asp:CheckBox ID="ChkForPOStatusReportType2" runat="server" Text="Check For Report Type2" CssClass="checkboxbold"/>
-                                       
+                                        <asp:CheckBox ID="ChkForPOStatusReportType2" runat="server" Text="Check For Report Type2"
+                                            CssClass="checkboxbold" />
+
                                     </td>
                                 </tr>
-                                 <tr id="TRFolioWiseConsumptionReportType2" runat="server" visible="false">
+                                <tr id="TRFolioWiseConsumptionReportType2" runat="server" visible="false">
                                     <td colspan="2" align="left">
-                                        <asp:CheckBox ID="ChkForFolioWiseConsReporType2" runat="server" Text="Check For Report Type2" CssClass="checkboxbold"/>
-                                       
+                                        <asp:CheckBox ID="ChkForFolioWiseConsReporType2" runat="server" Text="Check For Report Type2"
+                                            CssClass="checkboxbold" />
+
                                     </td>
                                 </tr>
-                                 <tr id="TRFolioWiseConsumptionSummary" runat="server" visible="false">
+                                <tr id="TRFolioWiseConsumptionSummary" runat="server" visible="false">
                                     <td colspan="2" align="left">
-                                        <asp:CheckBox ID="ChkForFolioWiseConReportType2Summary" runat="server" Text="Check For Report Summary" CssClass="checkboxbold"/>
-                                       
+                                        <asp:CheckBox ID="ChkForFolioWiseConReportType2Summary" runat="server" Text="Check For Report Summary"
+                                            CssClass="checkboxbold" />
+
                                     </td>
                                 </tr>
-                                 <tr id="TRPODETAIL" runat="server" visible="false">
+                                <tr id="TRPODETAIL" runat="server" visible="false">
                                     <td colspan="2" align="left">
-                                        <asp:CheckBox ID="chkforpodetail" runat="server" Text="For Details" CssClass="checkboxbold"/>
-                                       
+                                        <asp:CheckBox ID="chkforpodetail" runat="server" Text="For Details" CssClass="checkboxbold" />
+
                                     </td>
                                 </tr>
 
                                 <tr id="TRMonthyear" runat="server" visible="false">
-                                    <td>
-                                        &nbsp;
+                                    <td>&nbsp;
                                     </td>
                                     <td>
                                         <table>

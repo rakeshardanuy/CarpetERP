@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-public partial class Masters_process_PRI : System.Web.UI.Page
+public partial class Masters_process_ProcessRowIssue : System.Web.UI.Page
 {
     static int MasterCompanyId;
     static string TempLotNo = "";
@@ -1224,6 +1224,7 @@ public partial class Masters_process_PRI : System.Web.UI.Page
             }
         }
     }
+
     protected void gvdetail_SelectedIndexChanged(object sender, EventArgs e)
     {
         LblError.Text = "";
@@ -1503,6 +1504,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         }
         fill_qty();
     }
+    
+    
     [System.Web.Services.WebMethodAttribute(), System.Web.Script.Services.ScriptMethodAttribute()]
     public static string[] GetQuality(string prefixText, int count)
     {
@@ -1523,10 +1526,13 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         con.Close();
         return ProductCode.ToArray();
     }
+    
     private void Validated()
     {
 
     }
+
+
     protected void btnclose_Click(object sender, EventArgs e)
     {
         Session.Remove("prmid");
@@ -1535,6 +1541,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         Session.Remove("stocktranid");
         Session.Remove("stockid");
     }
+
+
     protected void txtissue_TextChanged(object sender, EventArgs e)
     {
         if (Session["VarcompanyNo"].ToString() == "5")
@@ -1605,6 +1613,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         }
 
     }
+    
+    
     private string CheckOderStockAssign()
     {
         string str = "";
@@ -1637,6 +1647,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         }
         return str;
     }
+    
+    
     private void fill_qty(object sender = null)
     {
         txtconqty.Text = "0";
@@ -1782,6 +1794,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
 
         }
     }
+    
+    
     protected void ChkForMtr_CheckedChanged(object sender, EventArgs e)
     {
         if (ChkForMtr.Checked == false)
@@ -1793,6 +1807,7 @@ public partial class Masters_process_PRI : System.Web.UI.Page
             UtilityModule.ConditionalComboFill(ref ddsize, "select sizeid,sizemtr from size where Shapeid=" + ddshape.SelectedValue + " And MasterCompanyId=" + Session["varCompanyId"] + "", true, "Size in Mtr");
         }
     }
+
     private void CHECKVALIDCONTROL()
     {
         LblError.Text = "";
@@ -1921,6 +1936,7 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         UtilityModule.SHOWMSG(LblError);
     B: ;
     }
+    
     private void WayChallanFormatReport()
     {
         SqlParameter[] _array = new SqlParameter[3];
@@ -1947,6 +1963,8 @@ public partial class Masters_process_PRI : System.Web.UI.Page
         }
         else { ScriptManager.RegisterStartupScript(Page, GetType(), "opn1", "alert('No Record Found!');", true); }
     }
+    
+    
     private void WayChallanFormatBackReport()
     {
         SqlParameter[] _array = new SqlParameter[3];
