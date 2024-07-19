@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmWeavingQualityWiseProductionArea.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmWeavingQualityWiseProductionArea" MasterPageFile="~/ERPmaster.master"
-    Title="Quality Wise Production Area Report" EnableEventValidation="false" %>
+    Title="Quality Wise Production Area Report" EnableEventValidation="false" Codebehind="FrmWeavingQualityWiseProductionArea.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

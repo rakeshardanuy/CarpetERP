@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Finishing Material Preparation" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="Frmfinishingmaterialpreparation.aspx.cs" Inherits="Masters_RawMaterial_Frmfinishingmaterialpreparation" %>
+    AutoEventWireup="true" Inherits="Masters_RawMaterial_Frmfinishingmaterialpreparation" Codebehind="Frmfinishingmaterialpreparation.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

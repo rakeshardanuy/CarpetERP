@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Stock Detail" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmCmpRawMaterialStock.aspx.cs" Inherits="Masters_ReportForms_FrmCmpRawMaterialStock" %>
+﻿<%@ Page Title="Stock Detail" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_FrmCmpRawMaterialStock" Codebehind="FrmCmpRawMaterialStock.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

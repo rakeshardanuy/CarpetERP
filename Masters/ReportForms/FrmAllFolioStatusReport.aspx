@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmAllFolioStatusReport.aspx.cs" Inherits="Masters_ReportForms_FrmAllFolioStatusReport"
-    MasterPageFile="~/ERPmaster.master" Title="ALL Folio Status Report" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_ReportForms_FrmAllFolioStatusReport"
+    MasterPageFile="~/ERPmaster.master" Title="ALL Folio Status Report" EnableEventValidation="false" Codebehind="FrmAllFolioStatusReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

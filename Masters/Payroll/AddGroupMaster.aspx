@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddGroupMaster.aspx.cs" Inherits="Masters_Payroll_AddGroupMaster"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Payroll_AddGroupMaster"
+    EnableEventValidation="false" Codebehind="AddGroupMaster.aspx.cs" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <%@ Register Src="~/UserControls/PayrollGroupmaster.ascx" TagPrefix="uc" TagName="PayrollGroupmaster" %>

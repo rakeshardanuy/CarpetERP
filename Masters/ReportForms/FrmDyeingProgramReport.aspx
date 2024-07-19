@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmDyeingProgramReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmDyeingProgramReport" MasterPageFile="~/ERPmaster.master"
-    Title="Dyeing Program Report" EnableEventValidation="false" %>
+    Title="Dyeing Program Report" EnableEventValidation="false" Codebehind="FrmDyeingProgramReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

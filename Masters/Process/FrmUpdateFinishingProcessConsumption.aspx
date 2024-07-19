@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Update Finishing Process Consumption" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmUpdateFinishingProcessConsumption.aspx.cs" Inherits="Masters_Process_FrmUpdateFinishingProcessConsumption" %>
+    AutoEventWireup="true" Inherits="Masters_Process_FrmUpdateFinishingProcessConsumption" Codebehind="FrmUpdateFinishingProcessConsumption.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

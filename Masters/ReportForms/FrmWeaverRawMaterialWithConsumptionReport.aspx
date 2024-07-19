@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmWeaverRawMaterialWithConsumptionReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmWeaverRawMaterialWithConsumptionReport" MasterPageFile="~/ERPmaster.master"
-    Title="Weaver Report" EnableEventValidation="false" %>
+    Title="Weaver Report" EnableEventValidation="false" Codebehind="FrmWeaverRawMaterialWithConsumptionReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="DISPATCH PLAN NEW" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmDispatchPlanNew.aspx.cs" Inherits="Masters_Packing_FrmDispatchPlanNew" %>
+    AutoEventWireup="true" Inherits="Masters_Packing_FrmDispatchPlanNew" Codebehind="FrmDispatchPlanNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

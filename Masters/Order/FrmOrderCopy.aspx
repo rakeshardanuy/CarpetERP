@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmOrderCopy.aspx.cs" Inherits="Masters_Order_FrmOrderCopy"
-    Title="Repeat Order" EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Order_FrmOrderCopy"
+    Title="Repeat Order" EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Codebehind="FrmOrderCopy.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

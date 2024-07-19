@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Per day Production Status" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmperdayproductionstatus.aspx.cs" Inherits="Masters_ReportForms_frmperdayproductionstatus" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmperdayproductionstatus" Codebehind="frmperdayproductionstatus.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

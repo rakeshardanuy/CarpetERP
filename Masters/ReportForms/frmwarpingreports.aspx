@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="WARPING REPORTS" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmWarpingReports.aspx.cs" Inherits="Masters_ReportForms_frmwarpingreports" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmwarpingreports" Codebehind="FrmWarpingReports.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

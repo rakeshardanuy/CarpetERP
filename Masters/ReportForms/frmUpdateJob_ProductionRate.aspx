@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" Title="UPDATE PRODUCTION/JOB RATE" AutoEventWireup="true"
-    CodeFile="frmUpdateJob_ProductionRate.aspx.cs" Inherits="Masters_ReportForms_frmUpdateJob_ProductionRate"
-    MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" Title="UPDATE PRODUCTION/JOB RATE" AutoEventWireup="true" Inherits="Masters_ReportForms_frmUpdateJob_ProductionRate"
+    MasterPageFile="~/ERPmaster.master" Codebehind="frmUpdateJob_ProductionRate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

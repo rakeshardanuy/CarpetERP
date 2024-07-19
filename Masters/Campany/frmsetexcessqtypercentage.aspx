@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="set percentage" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmsetexcessqtypercentage.aspx.cs" Inherits="Masters_Campany_frmsetexcessqtypercentage" %>
+    AutoEventWireup="true" Inherits="Masters_Campany_frmsetexcessqtypercentage" Codebehind="frmsetexcessqtypercentage.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

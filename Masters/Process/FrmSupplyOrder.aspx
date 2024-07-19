@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Supply Order" Language="C#" AutoEventWireup="true" CodeFile="FrmSupplyOrder.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_ProcessIssue_FrmSupplyOrder" EnableEventValidation="false" %>
+﻿<%@ Page Title="Supply Order" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_ProcessIssue_FrmSupplyOrder" EnableEventValidation="false" Codebehind="FrmSupplyOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

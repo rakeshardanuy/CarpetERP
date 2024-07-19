@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;using CarpetERP.Core.DAL;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using ClosedXML.Excel;
 
-public partial class Masters_Campany_FrmShowStockNoDetail : CustomPage
+public partial class Masters_Campany_FrmShowStockNoDetailforAnisa : CustomPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {

@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmDefineProcessRate.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Process_frmDefineProcessRate" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Define Job Rate" %>
+    EnableEventValidation="false" Title="Define Job Rate" Codebehind="frmDefineProcessRate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ContentPlaceHolderID="CPH_Form" runat="server" ID="Page">

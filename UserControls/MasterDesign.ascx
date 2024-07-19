@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterDesign.ascx.cs"
-    Inherits="UserControls_MasterDesign" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_MasterDesign" Codebehind="MasterDesign.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>

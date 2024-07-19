@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Import Emp Salary Data" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmImportEmpSalaryData.aspx.cs" Inherits="Masters_Payroll_FrmImportEmpSalaryData" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_FrmImportEmpSalaryData" Codebehind="FrmImportEmpSalaryData.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

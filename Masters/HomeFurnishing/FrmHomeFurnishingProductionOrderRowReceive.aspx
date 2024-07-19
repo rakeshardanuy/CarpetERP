@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="FrmHomeFurnishingProductionOrderRowReceive.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_HomeFurnishing_FrmHomeFurnishingProductionOrderRowReceive" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_HomeFurnishing_FrmHomeFurnishingProductionOrderRowReceive" Codebehind="FrmHomeFurnishingProductionOrderRowReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

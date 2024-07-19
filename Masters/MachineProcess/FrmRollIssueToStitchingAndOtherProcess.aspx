@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Roll Issue to Stitching" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollIssueToStitchingAndOtherProcess.aspx.cs"
-    Inherits="Masters_MachineProcess_FrmRollIssueToStitchingAndOtherProcess" %>
+    AutoEventWireup="true"
+    Inherits="Masters_MachineProcess_FrmRollIssueToStitchingAndOtherProcess" Codebehind="FrmRollIssueToStitchingAndOtherProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Erplogin.master" AutoEventWireup="true" CodeFile="ForgotPassword.aspx.cs" Inherits="ForgotPassword" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Erplogin.master" AutoEventWireup="true" Inherits="ForgotPassword" Codebehind="ForgotPassword.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

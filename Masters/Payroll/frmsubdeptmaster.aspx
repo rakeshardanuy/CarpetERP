@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Sub Dept. master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmsubdeptmaster.aspx.cs" Inherits="Masters_Payroll_frmsubdeptmaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmsubdeptmaster" Codebehind="frmsubdeptmaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Subdept.ascx" TagPrefix="uc" TagName="Subdept" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

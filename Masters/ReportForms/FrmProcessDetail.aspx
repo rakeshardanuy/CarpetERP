@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmProcessDetail.aspx.cs"
-    Title="Process Detail" Inherits="Masters_ReportForms_FrmProcessDetail" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Title="Process Detail" Inherits="Masters_ReportForms_FrmProcessDetail" EnableEventValidation="false" Codebehind="FrmProcessDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

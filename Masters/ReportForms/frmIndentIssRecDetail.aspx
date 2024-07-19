@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmIndentIssRecDetail.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmIndentIssRecDetail" Title="INDENTISS_REC_DETAIL"
-    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" %>
+    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Codebehind="frmIndentIssRecDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

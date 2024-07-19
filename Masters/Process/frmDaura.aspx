@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmDaura.aspx.cs" Inherits="Masters_Process_frmDaura"
-    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Title="Daura" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Process_frmDaura"
+    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Title="Daura" Codebehind="frmDaura.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

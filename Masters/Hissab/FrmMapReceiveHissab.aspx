@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmMapReceiveHissab.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Hissab_FrmMapReceiveHissab"
-    EnableEventValidation="false" Title="MAP RECEIVE HISSAB" %>
+    EnableEventValidation="false" Title="MAP RECEIVE HISSAB" Codebehind="FrmMapReceiveHissab.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

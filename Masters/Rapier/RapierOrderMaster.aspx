@@ -1,6 +1,5 @@
-﻿<%@ Page Title="RapierOrderMaster" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="RapierOrderMaster.aspx.cs" Inherits="Masters_Repier_RapierOrderMaster"
-    EnableEventValidation="false" %>
+﻿<%@ Page Title="RapierOrderMaster" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Repier_RapierOrderMaster"
+    EnableEventValidation="false" Codebehind="RapierOrderMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

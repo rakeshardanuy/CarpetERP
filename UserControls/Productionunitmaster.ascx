@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Productionunitmaster.ascx.cs"
-    Inherits="UserControls_Productionunitmaster" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_Productionunitmaster" Codebehind="Productionunitmaster.ascx.cs" %>
 <link href="../Styles/vijay.css" rel="Stylesheet" type="text/css" />
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>

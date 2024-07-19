@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Receive to Finishing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollReceiveToFinishingProcess.aspx.cs" Inherits="Masters_MachineProcess_FrmRollReceiveToFinishingProcess" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollReceiveToFinishingProcess" Codebehind="FrmRollReceiveToFinishingProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

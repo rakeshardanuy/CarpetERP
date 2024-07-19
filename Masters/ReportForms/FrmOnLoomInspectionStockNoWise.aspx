@@ -1,6 +1,5 @@
-﻿<%@ Page Title="OnLoom Inspection StockNo Wise" Language="C#" AutoEventWireup="true"
-    CodeFile="FrmOnLoomInspectionStockNoWise.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_Campany_FrmOnLoomInspectionStockNoWise" EnableEventValidation="false" %>
+﻿<%@ Page Title="OnLoom Inspection StockNo Wise" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_Campany_FrmOnLoomInspectionStockNoWise" EnableEventValidation="false" Codebehind="FrmOnLoomInspectionStockNoWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

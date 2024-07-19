@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="PRODUCTION RECEIVE" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmHomeFurnishingPanelMakingReceive.aspx.cs"
-    Inherits="Masters_HomeFurnishing_FrmHomeFurnishingPanelMakingReceive" %>
+    AutoEventWireup="true"
+    Inherits="Masters_HomeFurnishing_FrmHomeFurnishingPanelMakingReceive" Codebehind="FrmHomeFurnishingPanelMakingReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="RawYarnQCSummaryReport.aspx.cs" Inherits="Master_Inspection_RawYarnQCSummaryReport" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Master_Inspection_RawYarnQCSummaryReport" Codebehind="RawYarnQCSummaryReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 

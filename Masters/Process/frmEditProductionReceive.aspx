@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmEditProductionReceive.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Process_frmEditProductionReceive" MasterPageFile="~/ERPmaster.master"
-    Title="EDIT PRODUCTION RECEIVE" EnableEventValidation="false" %>
+    Title="EDIT PRODUCTION RECEIVE" EnableEventValidation="false" Codebehind="frmEditProductionReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

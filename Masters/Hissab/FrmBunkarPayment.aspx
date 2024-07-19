@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" Title="Bunkar Payment" AutoEventWireup="true" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" CodeFile="FrmBunkarPayment.aspx.cs" Inherits="Masters_Hissab_FrmBunkarPayment" %>
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Hissab_FrmBunkarPayment" Codebehind="FrmBunkarPayment.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

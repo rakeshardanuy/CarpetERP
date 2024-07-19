@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterWeightPenalityRate.ascx.cs" Inherits="UserControls_MasterWeightPenalityRate" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls_MasterWeightPenalityRate" Codebehind="MasterWeightPenalityRate.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>

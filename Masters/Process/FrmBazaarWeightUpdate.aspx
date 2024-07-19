@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Bazaar Weight Update" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmBazaarWeightUpdate.aspx.cs" Inherits="Masters_Process_FrmBazaarWeightUpdate" %>
+    AutoEventWireup="true" Inherits="Masters_Process_FrmBazaarWeightUpdate" Codebehind="FrmBazaarWeightUpdate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Issue to Latexing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollIssueToNextProcess.aspx.cs" Inherits="Masters_MachineProcess_FrmRollIssueToNextProcess" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollIssueToNextProcess" Codebehind="FrmRollIssueToNextProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

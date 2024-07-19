@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmpackingRegister.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Packing_frmpackingRegister" MasterPageFile="~/ERPmaster.master"
-    Title="PACKING REGISTER" EnableEventValidation="false" %>
+    Title="PACKING REGISTER" EnableEventValidation="false" Codebehind="frmpackingRegister.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

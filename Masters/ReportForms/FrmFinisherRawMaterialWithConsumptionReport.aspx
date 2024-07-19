@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmFinisherRawMaterialWithConsumptionReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmFinisherRawMaterialWithConsumptionReport" MasterPageFile="~/ERPmaster.master"
-    Title="Finisher Report" EnableEventValidation="false" %>
+    Title="Finisher Report" EnableEventValidation="false" Codebehind="FrmFinisherRawMaterialWithConsumptionReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

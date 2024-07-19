@@ -1,5 +1,5 @@
-﻿<%@ Page Title="NewUser" Language="C#" AutoEventWireup="true" CodeFile="NewUser.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="NewUser" EnableEventValidation="false" %>
+﻿<%@ Page Title="NewUser" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="NewUser" EnableEventValidation="false" Codebehind="NewUser.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

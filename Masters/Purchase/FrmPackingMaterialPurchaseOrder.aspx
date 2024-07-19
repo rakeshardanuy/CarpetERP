@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmPackingMaterialPurchaseOrder.aspx.cs"
-    EnableEventValidation="false" Inherits="Masters_Purchase_FrmPackingMaterialPurchaseOrder" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    EnableEventValidation="false" Inherits="Masters_Purchase_FrmPackingMaterialPurchaseOrder" Codebehind="FrmPackingMaterialPurchaseOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Src="~/UserControls/ucmenu.ascx" TagName="ucmenu" TagPrefix="uc1" %>

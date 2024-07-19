@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmQualityWiseShipmentUpload.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Carpet_FrmQualityWiseShipmentUpload" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmQualityWiseShipmentUpload.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Shift Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmshiftmaster.aspx.cs" Inherits="Masters_Payroll_frmshiftmaster" %>
+﻿<%@ Page Title="Shift Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Payroll_frmshiftmaster" Codebehind="frmshiftmaster.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

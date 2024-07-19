@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Penality" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="frmPenality.aspx.cs" Inherits="Masters_Campany_frmPenality" EnableEventValidation="false" %>
+﻿<%@ Page Title="Penality" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_frmPenality" EnableEventValidation="false" Codebehind="frmPenality.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

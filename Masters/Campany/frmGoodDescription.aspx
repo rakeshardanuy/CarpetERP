@@ -1,6 +1,5 @@
-﻿<%@ Page Title="GoodsDescription" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="~/Masters/Campany/frmGoodDescription.aspx.cs" Inherits="Masters_Campany_frmGoodDescription"
-    EnableEventValidation="false" %>
+﻿<%@ Page Title="GoodsDescription" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_frmGoodDescription"
+    EnableEventValidation="false" Codebehind="~/Masters/Campany/frmGoodDescription.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

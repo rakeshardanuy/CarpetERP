@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Receive to Dyeing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollReceiveToDyeingProcess.aspx.cs" Inherits="Masters_MachineProcess_FrmRollReceiveToDyeingProcess" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollReceiveToDyeingProcess" Codebehind="FrmRollReceiveToDyeingProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

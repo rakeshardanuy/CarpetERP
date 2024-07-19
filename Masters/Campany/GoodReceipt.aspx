@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" Title="GoodReceipt" AutoEventWireup="true" CodeFile="GoodReceipt.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_GoodReceipt" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="GoodReceipt" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_GoodReceipt" EnableEventValidation="false" Codebehind="GoodReceipt.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmShadeColorReceipe.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="FrmShadeColorReceipe" MasterPageFile="~/ERPmaster.master" Title="Define Shade Color"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmShadeColorReceipe.aspx.cs" %>
 
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script type="text/javascript">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Cadre master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmcadremaster.aspx.cs" Inherits="Masters_Payroll_frmcadremaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmcadremaster" Codebehind="frmcadremaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Cadre.ascx" TagPrefix="uc" TagName="Cadre" %>
 

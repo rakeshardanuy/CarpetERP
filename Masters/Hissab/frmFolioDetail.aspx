@@ -1,5 +1,4 @@
-﻿<%@ Page Title="FOLIO" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmFolioDetail.aspx.cs" Inherits="Masters_Hissab_frmFolioDetail" %>
+﻿<%@ Page Title="FOLIO" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Hissab_frmFolioDetail" Codebehind="frmFolioDetail.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

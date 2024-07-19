@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Roll Issue to Dyeing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollIssueToDyeingProcess.aspx.cs"
-    Inherits="Masters_MachineProcess_FrmRollIssueToDyeingProcess" %>
+    AutoEventWireup="true"
+    Inherits="Masters_MachineProcess_FrmRollIssueToDyeingProcess" Codebehind="FrmRollIssueToDyeingProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

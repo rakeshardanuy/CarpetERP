@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Material issue stock no wise" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmmaterialissuestocknowise.aspx.cs" Inherits="Masters_RawMaterial_frmmaterialissuestocknowise" %>
+    AutoEventWireup="true" Inherits="Masters_RawMaterial_frmmaterialissuestocknowise" Codebehind="frmmaterialissuestocknowise.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

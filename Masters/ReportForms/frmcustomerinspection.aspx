@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="customer inspection" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmcustomerinspection.aspx.cs" Inherits="Masters_ReportForms_frmcustomerinspection" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmcustomerinspection" Codebehind="frmcustomerinspection.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

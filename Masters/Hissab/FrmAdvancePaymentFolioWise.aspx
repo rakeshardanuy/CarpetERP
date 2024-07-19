@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmAdvancePaymentFolioWise.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Hissab_FrmAdvancePaymentFolioWise" MasterPageFile="~/ERPmaster.master"
-    Title="ADVANCE PAYMENT FOLIO WISE" EnableEventValidation="false" %>
+    Title="ADVANCE PAYMENT FOLIO WISE" EnableEventValidation="false" Codebehind="FrmAdvancePaymentFolioWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

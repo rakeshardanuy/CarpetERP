@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Sample Yarn Dyeing Receive" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmsampledyeingMaterialReceive.aspx.cs" Inherits="Masters_Sample_Material_frmsampledyeingMaterialReceive" %>
+    AutoEventWireup="true" Inherits="Masters_Sample_Material_frmsampledyeingMaterialReceive" Codebehind="frmsampledyeingMaterialReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

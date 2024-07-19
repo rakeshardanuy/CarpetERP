@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddCarriage.aspx.cs" Inherits="Masters_Campany_frmCarriage"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Campany_AddCarriage"
+    EnableEventValidation="false" Codebehind="AddCarriage.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Src="../../UserControls/SearchA.ascx" TagName="SearchA" TagPrefix="uc1" %>

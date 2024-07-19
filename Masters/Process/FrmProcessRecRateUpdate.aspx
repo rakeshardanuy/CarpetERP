@@ -1,6 +1,5 @@
-﻿<%@ Page Title="Process Rec Rate Update" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="FrmProcessRecRateUpdate.aspx.cs" Inherits="Masters_Process_FrmProcessRecRateUpdate"
-    EnableEventValidation="false" %>
+﻿<%@ Page Title="Process Rec Rate Update" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Process_FrmProcessRecRateUpdate"
+    EnableEventValidation="false" Codebehind="FrmProcessRecRateUpdate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

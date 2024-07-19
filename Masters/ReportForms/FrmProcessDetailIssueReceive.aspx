@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmProcessDetailIssueReceive.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmProcessDetailIssueReceive" EnableEventValidation="false"
-    Title="Process Issue_Rec Detail" MasterPageFile="~/ERPmaster.master" %>
+    Title="Process Issue_Rec Detail" MasterPageFile="~/ERPmaster.master" Codebehind="FrmProcessDetailIssueReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

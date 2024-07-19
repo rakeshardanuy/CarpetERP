@@ -1,5 +1,4 @@
-﻿<%@ Page Title="AQL REPORT" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmAqlreport.aspx.cs" Inherits="Masters_ReportForms_frmAqlreport" %>
+﻿<%@ Page Title="AQL REPORT" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmAqlreport" Codebehind="frmAqlreport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

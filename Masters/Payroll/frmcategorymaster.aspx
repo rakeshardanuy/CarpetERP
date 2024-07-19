@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Category master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmcategorymaster.aspx.cs" Inherits="Masters_Payroll_frmcategorymaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmcategorymaster" Codebehind="frmcategorymaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Category.ascx" TagPrefix="uc" TagName="Category" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

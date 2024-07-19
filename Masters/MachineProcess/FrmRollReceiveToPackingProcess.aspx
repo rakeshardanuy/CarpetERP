@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Receive to Packing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollReceiveToPackingProcess.aspx.cs" Inherits="Masters_MachineProcess_FrmRollReceiveToPackingProcess" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollReceiveToPackingProcess" Codebehind="FrmRollReceiveToPackingProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="WIP STOCK REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmwipstockreport.aspx.cs" Inherits="Masters_ReportForms_frmwipstockreport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmwipstockreport" Codebehind="frmwipstockreport.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" Title="Designation" AutoEventWireup="true" CodeFile="Designation.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Designation" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="Designation" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Designation" EnableEventValidation="false" Codebehind="Designation.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

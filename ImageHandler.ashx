@@ -1,6 +1,6 @@
 ﻿<%@ WebHandler Language="C#" Class="ImageHandler" %>
 
-using System;
+using System;using CarpetERP.Core.DAL;
 using System.Web;
 using System.Configuration;
 using System.Data.SqlClient;

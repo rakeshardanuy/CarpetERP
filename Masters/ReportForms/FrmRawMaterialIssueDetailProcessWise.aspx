@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmRawMaterialIssueDetailProcessWise.aspx.cs"
-    Inherits="Masters_ReportForms_FrmRawMaterialIssueDetailProcessWise" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_ReportForms_FrmRawMaterialIssueDetailProcessWise" MasterPageFile="~/ERPmaster.master" Codebehind="FrmRawMaterialIssueDetailProcessWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

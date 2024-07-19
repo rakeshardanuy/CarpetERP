@@ -1,5 +1,4 @@
-﻿<%@ Page Title="YARN OPENING" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmreportyarnopening.aspx.cs" Inherits="Masters_ReportForms_frmreportyarnopening" %>
+﻿<%@ Page Title="YARN OPENING" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmreportyarnopening" Codebehind="frmreportyarnopening.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

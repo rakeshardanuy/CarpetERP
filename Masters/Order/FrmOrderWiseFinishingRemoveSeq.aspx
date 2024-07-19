@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmOrderWiseFinishingRemoveSeq.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Order_FrmOrderWiseFinishingRemoveSeq" MasterPageFile="~/ERPmaster.master"
-    Title="Remove Order Wise Finishing Seq" %>
+    Title="Remove Order Wise Finishing Seq" Codebehind="FrmOrderWiseFinishingRemoveSeq.aspx.cs" %>
 
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

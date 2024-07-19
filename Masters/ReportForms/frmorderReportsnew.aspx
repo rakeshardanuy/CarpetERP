@@ -1,6 +1,6 @@
-﻿<%@ Page Title="ORDER REPORTS" Language="C#" AutoEventWireup="true" CodeFile="frmorderReportsnew.aspx.cs"
+﻿<%@ Page Title="ORDER REPORTS" Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmorderReportsnew" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="frmorderReportsnew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

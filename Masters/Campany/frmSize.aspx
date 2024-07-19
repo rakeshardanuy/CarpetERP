@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="frmSize.aspx.cs" Inherits="frmSize" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="frmSize" EnableEventValidation="false" Codebehind="frmSize.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

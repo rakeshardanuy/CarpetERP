@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Frm12EmpReport.aspx.cs" Inherits="Masters_ReportForms_Frm12EmpReport"
-    EnableEventValidation="false" Title="Form 12 Emp Report" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_ReportForms_Frm12EmpReport"
+    EnableEventValidation="false" Title="Form 12 Emp Report" MasterPageFile="~/ERPmaster.master" Codebehind="Frm12EmpReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

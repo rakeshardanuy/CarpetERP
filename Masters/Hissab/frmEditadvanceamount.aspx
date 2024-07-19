@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmEditadvanceamount.aspx.cs"
-    Inherits="Masters_Hissab_frmEditadvanceamount" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Hissab_frmEditadvanceamount" MasterPageFile="~/ERPmaster.master" Codebehind="frmEditadvanceamount.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

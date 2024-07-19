@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Doc type master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmdoctypemaster.aspx.cs" Inherits="Masters_Payroll_frmdoctypemaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmdoctypemaster" Codebehind="frmdoctypemaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/DocType.ascx" TagPrefix="uc" TagName="DocType" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

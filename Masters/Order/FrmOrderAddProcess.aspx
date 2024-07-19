@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmOrderAddProcess.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Order_FrmOrderAddProcess" Title="Order Add Process" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="FrmOrderAddProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

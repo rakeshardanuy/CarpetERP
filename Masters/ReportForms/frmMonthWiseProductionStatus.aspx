@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmMonthWiseProductionStatus.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmMonthWiseProductionStatus" MasterPageFile="~/ERPmaster.master"
-    Title="MONTHLY PRODUCTION STATUS" %>
+    Title="MONTHLY PRODUCTION STATUS" Codebehind="frmMonthWiseProductionStatus.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

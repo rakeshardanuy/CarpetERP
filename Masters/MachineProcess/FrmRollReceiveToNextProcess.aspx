@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Receive to Latexing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollReceiveToNextProcess.aspx.cs" Inherits="Masters_MachineProcess_FrmRollReceiveToNextProcess" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollReceiveToNextProcess" Codebehind="FrmRollReceiveToNextProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

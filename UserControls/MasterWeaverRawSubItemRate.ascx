@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterWeaverRawSubItemRate.ascx.cs" Inherits="UserControls_MasterWeaverRawSubItemRate" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls_MasterWeaverRawSubItemRate" Codebehind="MasterWeaverRawSubItemRate.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>

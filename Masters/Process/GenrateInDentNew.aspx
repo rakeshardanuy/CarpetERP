@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="GenrateInDentNew.aspx.cs" Inherits="Masters_Process_GenrateInDentNew"
-    EnableEventValidation="false" ViewStateMode="Enabled" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Process_GenrateInDentNew"
+    EnableEventValidation="false" ViewStateMode="Enabled" Codebehind="GenrateInDentNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterTCS.ascx.cs" Inherits="UserControls_MasterTCS" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls_MasterTCS" Codebehind="MasterTCS.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>

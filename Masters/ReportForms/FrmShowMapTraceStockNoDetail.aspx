@@ -1,6 +1,5 @@
-﻿<%@ Page Title="Show Map Trance Stock no. Detail" Language="C#" AutoEventWireup="true"
-    CodeFile="FrmShowMapTraceStockNoDetail.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_ReportForms_FrmShowMapTraceStockNoDetail" EnableEventValidation="false" %>
+﻿<%@ Page Title="Show Map Trance Stock no. Detail" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_ReportForms_FrmShowMapTraceStockNoDetail" EnableEventValidation="false" Codebehind="FrmShowMapTraceStockNoDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

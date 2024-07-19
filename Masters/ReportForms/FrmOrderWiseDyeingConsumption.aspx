@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="ORDER WISE DYEING CONSUMPTION" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmOrderWiseDyeingConsumption.aspx.cs" Inherits="Masters_ReportForms_frmOrderWiseDyeingConsumption" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmOrderWiseDyeingConsumption" Codebehind="frmOrderWiseDyeingConsumption.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

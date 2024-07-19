@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Dry Weight Percentage Master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="DryWeightPercentageMaster.aspx.cs" Inherits="Masters_Campany_DryWeightPercentageMaster"%>
+    AutoEventWireup="true" Inherits="Masters_Campany_DryWeightPercentageMaster" Codebehind="DryWeightPercentageMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

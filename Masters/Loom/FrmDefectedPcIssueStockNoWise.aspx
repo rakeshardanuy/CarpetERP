@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmDefectedPcIssueStockNoWise.aspx.cs" Inherits="Masters_Loom_FrmDefectedPcIssueStockNoWise" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Loom_FrmDefectedPcIssueStockNoWise" Codebehind="FrmDefectedPcIssueStockNoWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

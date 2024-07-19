@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Punch Card Iss Rec Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmPunchCardIssRecReport.aspx.cs" Inherits="Masters_ReportForms_FrmPunchCardIssRecReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmPunchCardIssRecReport" Codebehind="FrmPunchCardIssRecReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

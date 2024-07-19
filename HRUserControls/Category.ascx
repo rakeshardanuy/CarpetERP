@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Category.ascx.cs" Inherits="HRUserControls_Category" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="HRUserControls_Category" Codebehind="Category.ascx.cs" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

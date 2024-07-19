@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="JOB ISSUE EDIT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmjobissueeditforOther.aspx.cs" Inherits="Masters_Process_frmjobissueeditforOther" %>
+    AutoEventWireup="true" Inherits="Masters_Process_frmjobissueeditforOther" Codebehind="frmjobissueeditforOther.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

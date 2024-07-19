@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Warpingratemaster.ascx.cs"
-    Inherits="UserControls_Warpingratemaster" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_Warpingratemaster" Codebehind="Warpingratemaster.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>

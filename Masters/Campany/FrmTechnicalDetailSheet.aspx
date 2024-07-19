@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Technical Detail Sheet" Language="C#" AutoEventWireup="true" CodeFile="FrmTechnicalDetailSheet.aspx.cs"
+﻿<%@ Page Title="Technical Detail Sheet" Language="C#" AutoEventWireup="true"
     Inherits="Masters_Campany_FrmTechnicalDetailSheet" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="FrmTechnicalDetailSheet.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

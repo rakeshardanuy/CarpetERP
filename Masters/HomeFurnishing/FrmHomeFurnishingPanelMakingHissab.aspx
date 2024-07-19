@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmHomeFurnishingPanelMakingHissab.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_HomeFurnishing_FrmHomeFurnishingPanelMakingHissab"
-    EnableEventValidation="false" Title="HISSAB" %>
+    EnableEventValidation="false" Title="HISSAB" Codebehind="FrmHomeFurnishingPanelMakingHissab.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

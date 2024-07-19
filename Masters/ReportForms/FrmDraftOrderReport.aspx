@@ -1,6 +1,6 @@
-﻿<%@ Page Title="DRAFT ORDER REPORTS" Language="C#" AutoEventWireup="true" CodeFile="FrmDraftOrderReport.aspx.cs"
+﻿<%@ Page Title="DRAFT ORDER REPORTS" Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmDraftOrderReport" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="FrmDraftOrderReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

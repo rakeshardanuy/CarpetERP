@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Process Wise Hissab Detail Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmProcessWiseHissabDetailReport.aspx.cs" Inherits="Masters_ReportForms_FrmProcessWiseHissabDetailReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmProcessWiseHissabDetailReport" Codebehind="FrmProcessWiseHissabDetailReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

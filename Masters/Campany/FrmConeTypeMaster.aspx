@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" Title="Cone Type" AutoEventWireup="true" CodeFile="FrmConeTypeMaster.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="FrmConeTypeMaster" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="Cone Type" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="FrmConeTypeMaster" EnableEventValidation="false" Codebehind="FrmConeTypeMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

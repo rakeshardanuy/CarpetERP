@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="YARN OPENING RETURN" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmyarnopeningreturn.aspx.cs" Inherits="Masters_YarnOpening_frmyarnopeningreturn" %>
+    AutoEventWireup="true" Inherits="Masters_YarnOpening_frmyarnopeningreturn" Codebehind="frmyarnopeningreturn.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

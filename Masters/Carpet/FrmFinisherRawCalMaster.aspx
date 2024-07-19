@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" EnableViewStateMac="false"
-    AutoEventWireup="true" CodeFile="FrmFinisherRawCalMaster.aspx.cs" Inherits="Masters_Carpet_FrmFinisherRawCalMaster"
-    EnableEventValidation="false" %>
+    AutoEventWireup="true" Inherits="Masters_Carpet_FrmFinisherRawCalMaster"
+    EnableEventValidation="false" Codebehind="FrmFinisherRawCalMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

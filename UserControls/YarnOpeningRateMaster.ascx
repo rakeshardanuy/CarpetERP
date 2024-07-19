@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="YarnOpeningRateMaster.ascx.cs"
-    Inherits="UserControls_YarnOpeningRateMaster" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_YarnOpeningRateMaster" Codebehind="YarnOpeningRateMaster.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>

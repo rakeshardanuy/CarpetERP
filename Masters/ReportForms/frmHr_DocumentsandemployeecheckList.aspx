@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Documents & Employee Check List" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmHr_DocumentsandemployeecheckList.aspx.cs"
-    Inherits="Masters_ReportForms_frmHr_DocumentsandemployeecheckList" %>
+    AutoEventWireup="true"
+    Inherits="Masters_ReportForms_frmHr_DocumentsandemployeecheckList" Codebehind="frmHr_DocumentsandemployeecheckList.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddBuyingAgent.aspx.cs" Inherits="BuyingAgent"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Campany_AddBuyingAgent"
+    EnableEventValidation="false" Codebehind="AddBuyingAgent.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%--User controls regertration--%>

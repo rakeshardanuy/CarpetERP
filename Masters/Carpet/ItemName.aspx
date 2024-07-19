@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ItemName.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_Campany_ItemName" EnableEventValidation="false" MaintainScrollPositionOnPostback="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_Campany_ItemName" EnableEventValidation="false" MaintainScrollPositionOnPostback="true" Codebehind="ItemName.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

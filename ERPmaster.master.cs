@@ -1,4 +1,5 @@
 ﻿using System;
+using CarpetERP.Core.DAL;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -484,50 +485,50 @@ public partial class ERPmaster : System.Web.UI.MasterPage
             TRDelayOrder.Visible = true;
         }
     }
-//    private void FillGridDelayPurchaseOrder()
-//    {
-//        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
-//        string qry = @" Select distinct Top 10 CI.CompanyName, EI.EmpName,VDPO.ChallanNo,VDPO.DueDate,Replace(Convert(varchar(11),VDPO.DueDate,106),' ','-') as DueDate2 
-//                        From V_DelayPurchaseOrder VDPO JOIN EmpInfo EI ON VDPO.PartyId=EI.EmpID 
-//                        JOIN CompanyInfo CI ON VDPO.CompanyId=CI.CompanyId
-//                        Where IssQty > RecQty And DueDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) Order by VDPO.DueDate desc";
-//        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
-//        if (ds.Tables[0].Rows.Count > 0)
-//        {
-//            GVDelayPurchaseOrder.DataSource = ds;
-//            GVDelayPurchaseOrder.DataBind();
-//            TRDelayPurchaseOrder.Visible = true;
-//        }
-//    }
-//    private void FillGridDelayDyeingIndent()
-//    {
-//        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
-//        string qry = @" select distinct Top 10 VDDI.IndentId, CI.CompanyName, EI.EmpName,VDDI.IndentNo,VDDI.ReqDate,Replace(Convert(varchar(11),VDDI.ReqDate,106),' ','-') as DueDate2 
-//                        from V_DelayDyeingIndent VDDI JOIN EmpInfo EI ON VDDI.PartyId=EI.EmpID 
-//                        JOIN CompanyInfo CI ON VDDI.CompanyId=CI.CompanyId
-//                        Where IssQty > RecQty And ReqDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) order by VDDI.ReqDate desc";
-//        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
-//        if (ds.Tables[0].Rows.Count > 0)
-//        {
-//            GVDelayDyeingIndent.DataSource = ds;
-//            GVDelayDyeingIndent.DataBind();
-//            TRDelayDyeingIndent.Visible = true;
-//        }
-//    }
-//    private void FillGridDelayProductionOrder()
-//    {
-//        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
-//        string qry = @"select distinct Top 10 VDPO.IssueOrderID, CI.CompanyName, EI.EmpName,VDPO.ReqByDate,Replace(Convert(varchar(11),VDPO.ReqByDate,106),' ','-') as DueDate 
-//                        from V_DelayProductionOrderNo VDPO JOIN EmpInfo EI ON VDPO.EmpID=EI.EmpID 
-//                        JOIN CompanyInfo CI ON VDPO.CompanyId=CI.CompanyId
-//                        Where VDPO.IssQty > VDPO.RecQty And VDPO.ReqByDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) order by VDPO.ReqByDate desc";
-//        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
-//        if (ds.Tables[0].Rows.Count > 0)
-//        {
-//            GVDelayProductionOrder.DataSource = ds;
-//            GVDelayProductionOrder.DataBind();
-//            TRDelayProductionOrder.Visible = true;
-//        }
-//    } 
-   
+    //    private void FillGridDelayPurchaseOrder()
+    //    {
+    //        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
+    //        string qry = @" Select distinct Top 10 CI.CompanyName, EI.EmpName,VDPO.ChallanNo,VDPO.DueDate,Replace(Convert(varchar(11),VDPO.DueDate,106),' ','-') as DueDate2 
+    //                        From V_DelayPurchaseOrder VDPO JOIN EmpInfo EI ON VDPO.PartyId=EI.EmpID 
+    //                        JOIN CompanyInfo CI ON VDPO.CompanyId=CI.CompanyId
+    //                        Where IssQty > RecQty And DueDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) Order by VDPO.DueDate desc";
+    //        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
+    //        if (ds.Tables[0].Rows.Count > 0)
+    //        {
+    //            GVDelayPurchaseOrder.DataSource = ds;
+    //            GVDelayPurchaseOrder.DataBind();
+    //            TRDelayPurchaseOrder.Visible = true;
+    //        }
+    //    }
+    //    private void FillGridDelayDyeingIndent()
+    //    {
+    //        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
+    //        string qry = @" select distinct Top 10 VDDI.IndentId, CI.CompanyName, EI.EmpName,VDDI.IndentNo,VDDI.ReqDate,Replace(Convert(varchar(11),VDDI.ReqDate,106),' ','-') as DueDate2 
+    //                        from V_DelayDyeingIndent VDDI JOIN EmpInfo EI ON VDDI.PartyId=EI.EmpID 
+    //                        JOIN CompanyInfo CI ON VDDI.CompanyId=CI.CompanyId
+    //                        Where IssQty > RecQty And ReqDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) order by VDDI.ReqDate desc";
+    //        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
+    //        if (ds.Tables[0].Rows.Count > 0)
+    //        {
+    //            GVDelayDyeingIndent.DataSource = ds;
+    //            GVDelayDyeingIndent.DataBind();
+    //            TRDelayDyeingIndent.Visible = true;
+    //        }
+    //    }
+    //    private void FillGridDelayProductionOrder()
+    //    {
+    //        SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
+    //        string qry = @"select distinct Top 10 VDPO.IssueOrderID, CI.CompanyName, EI.EmpName,VDPO.ReqByDate,Replace(Convert(varchar(11),VDPO.ReqByDate,106),' ','-') as DueDate 
+    //                        from V_DelayProductionOrderNo VDPO JOIN EmpInfo EI ON VDPO.EmpID=EI.EmpID 
+    //                        JOIN CompanyInfo CI ON VDPO.CompanyId=CI.CompanyId
+    //                        Where VDPO.IssQty > VDPO.RecQty And VDPO.ReqByDate < DATEADD(dd, DATEDIFF(dd, 0, getdate()), 0) order by VDPO.ReqByDate desc";
+    //        DataSet ds = SqlHelper.ExecuteDataset(con, CommandType.Text, qry);
+    //        if (ds.Tables[0].Rows.Count > 0)
+    //        {
+    //            GVDelayProductionOrder.DataSource = ds;
+    //            GVDelayProductionOrder.DataBind();
+    //            TRDelayProductionOrder.Visible = true;
+    //        }
+    //    } 
+
 }

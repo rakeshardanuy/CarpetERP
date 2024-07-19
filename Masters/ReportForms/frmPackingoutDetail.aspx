@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PACKING OUT DETAIL" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmPackingoutDetail.aspx.cs" Inherits="Masters_ReportForms_frmPackingoutDetail" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmPackingoutDetail" Codebehind="frmPackingoutDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

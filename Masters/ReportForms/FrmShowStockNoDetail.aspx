@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Show Stock no. Detail" Language="C#" AutoEventWireup="true" CodeFile="FrmShowStockNoDetail.aspx.cs"
+﻿<%@ Page Title="Show Stock no. Detail" Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_FrmShowStockNoDetail"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmShowStockNoDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

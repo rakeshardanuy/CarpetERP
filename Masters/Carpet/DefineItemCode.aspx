@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="DefineItemCode.aspx.cs" Inherits="DefineItemCode"
-    Title="Define Item Code" EnableEventValidation="false" ViewStateMode="Enabled" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="DefineItemCode"
+    Title="Define Item Code" EnableEventValidation="false" ViewStateMode="Enabled" Codebehind="DefineItemCode.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

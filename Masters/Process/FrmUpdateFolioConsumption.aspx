@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Update Folio Consumption" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmUpdateFolioConsumption.aspx.cs" Inherits="Masters_Process_FrmUpdateFolioConsumption"
-    EnableEventValidation="false" %>
+    AutoEventWireup="true" Inherits="Masters_Process_FrmUpdateFolioConsumption"
+    EnableEventValidation="false" Codebehind="FrmUpdateFolioConsumption.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

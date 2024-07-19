@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmRawMaterialIssueForAnisa.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_RawMaterial_frmRawMaterialIssueForAnisa" MasterPageFile="~/ERPmaster.master"
-    Title="Raw Material Issue" EnableEventValidation="false" %>
+    Title="Raw Material Issue" EnableEventValidation="false" Codebehind="frmRawMaterialIssueForAnisa.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

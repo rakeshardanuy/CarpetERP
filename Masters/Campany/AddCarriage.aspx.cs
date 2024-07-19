@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;using CarpetERP.Core.DAL;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-public partial class Masters_Campany_frmCarriage : CustomPage
+public partial class Masters_Campany_AddCarriage : CustomPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {

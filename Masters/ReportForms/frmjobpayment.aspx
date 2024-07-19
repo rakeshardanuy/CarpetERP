@@ -1,5 +1,4 @@
-﻿<%@ Page Title="JOB PAYMENT" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmjobpayment.aspx.cs" Inherits="Masters_ReportForms_frmjobpayment" %>
+﻿<%@ Page Title="JOB PAYMENT" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmjobpayment" Codebehind="frmjobpayment.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

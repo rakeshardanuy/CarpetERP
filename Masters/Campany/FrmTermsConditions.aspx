@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Terms & Conditions" Language="C#" AutoEventWireup="true" CodeFile="FrmTermsConditions.aspx.cs"
+﻿<%@ Page Title="Terms & Conditions" Language="C#" AutoEventWireup="true"
     Inherits="Masters_Campany_FrmTermsConditions" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" ValidateRequest="false" %>
+    EnableEventValidation="false" ValidateRequest="false" Codebehind="FrmTermsConditions.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

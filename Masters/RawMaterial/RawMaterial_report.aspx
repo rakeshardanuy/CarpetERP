@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false" ViewStateMode="Enabled"
-    CodeFile="RawMaterial_report.aspx.cs" MasterPageFile="~/ERPmaster.master" Inherits="Masters_RawMaterial_RawMaterial_report" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false" ViewStateMode="Enabled" MasterPageFile="~/ERPmaster.master" Inherits="Masters_RawMaterial_RawMaterial_report" Codebehind="RawMaterial_report.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

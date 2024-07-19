@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Kit Challan Issue" Language="C#" AutoEventWireup="true" CodeFile="KitChallanIssue.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_process_KitChallanIssue" %>
+﻿<%@ Page Title="Kit Challan Issue" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_process_KitChallanIssue" Codebehind="KitChallanIssue.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

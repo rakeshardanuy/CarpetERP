@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Material Gate In/Out" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" EnableEventValidation="false" CodeFile="FrmGateInOutMaterial.aspx.cs"
-    Inherits="Masters_RawMaterial_FrmGateInOutMaterial" %>
+    AutoEventWireup="true" EnableEventValidation="false"
+    Inherits="Masters_RawMaterial_FrmGateInOutMaterial" Codebehind="FrmGateInOutMaterial.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

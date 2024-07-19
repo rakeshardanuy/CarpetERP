@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmRawMaterialReturned.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_RawMaterial_frmRawMaterialReturned" MasterPageFile="~/ERPmaster.master"
-    Title="RAW MATERIAL RETURNED" EnableEventValidation="false" %>
+    Title="RAW MATERIAL RETURNED" EnableEventValidation="false" Codebehind="frmRawMaterialReturned.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

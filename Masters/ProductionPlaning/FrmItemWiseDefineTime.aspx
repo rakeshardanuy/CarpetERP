@@ -1,6 +1,5 @@
-﻿<%@ Page Title="Process Time Master" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="FrmItemWiseDefineTime.aspx.cs" Inherits="Masters_ProductionPlaning_FrmItemWiseDefineTime"
-    EnableEventValidation="false" %>
+﻿<%@ Page Title="Process Time Master" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_ProductionPlaning_FrmItemWiseDefineTime"
+    EnableEventValidation="false" Codebehind="FrmItemWiseDefineTime.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

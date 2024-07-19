@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="draft_order_next.aspx.cs"
-    Inherits="Masters_Order_draft_order_next" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Order_draft_order_next" EnableEventValidation="false" Codebehind="draft_order_next.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

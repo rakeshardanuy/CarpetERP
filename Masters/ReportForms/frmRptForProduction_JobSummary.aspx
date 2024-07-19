@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmRptForProduction_JobSummary.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmRptForProduction_JobSummary" MasterPageFile="~/ERPmaster.master"
-    Title="PRODUCTION/JOB SUMMARY" %>
+    Title="PRODUCTION/JOB SUMMARY" Codebehind="frmRptForProduction_JobSummary.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

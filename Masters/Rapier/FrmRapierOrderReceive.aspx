@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Rapier Order Receive" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRapierOrderReceive.aspx.cs" Inherits="Masters_Rapier_FrmRapierOrderReceive" %>
+    AutoEventWireup="true" Inherits="Masters_Rapier_FrmRapierOrderReceive" Codebehind="FrmRapierOrderReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

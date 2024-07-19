@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmDyerDirectStockIssRecReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmDyerDirectStockIssRecReport" MasterPageFile="~/ERPmaster.master"
-    Title="Dyeing Direct Stock Issue Receive Report" EnableEventValidation="false" %>
+    Title="Dyeing Direct Stock Issue Receive Report" EnableEventValidation="false" Codebehind="FrmDyerDirectStockIssRecReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

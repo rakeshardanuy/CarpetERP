@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmProcessHissabByIssueNo.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Hissab_FrmProcessHissabByIssueNo"
-    EnableEventValidation="false" Title="Process Hissab By Issue No" %>
+    EnableEventValidation="false" Title="Process Hissab By Issue No" Codebehind="FrmProcessHissabByIssueNo.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

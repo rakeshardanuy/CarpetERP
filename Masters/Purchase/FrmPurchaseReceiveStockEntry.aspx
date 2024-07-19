@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmPurchaseReceiveStockEntry.aspx.cs"
-    Title="" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Purchase_FrmPurchaseReceiveStockEntry" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Title="" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Purchase_FrmPurchaseReceiveStockEntry" Codebehind="FrmPurchaseReceiveStockEntry.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

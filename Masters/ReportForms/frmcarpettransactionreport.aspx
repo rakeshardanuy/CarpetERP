@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Carpet Transaction Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmcarpettransactionreport.aspx.cs" Inherits="Masters_ReportForms_frmcarpettransactionreport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmcarpettransactionreport" Codebehind="frmcarpettransactionreport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

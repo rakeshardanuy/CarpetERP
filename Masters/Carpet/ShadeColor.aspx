@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ShadeColor.aspx.cs" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_ShadeColor" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_ShadeColor" Codebehind="ShadeColor.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

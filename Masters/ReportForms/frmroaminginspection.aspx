@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roaming Inspection Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmroaminginspection.aspx.cs" Inherits="Masters_ReportForms_frmroaminginspection" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmroaminginspection" Codebehind="frmroaminginspection.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmProductionTNAPLAN.aspx.cs" Inherits="Masters_Order_FrmProductionTNAPLAN" %>
+    EnableEventValidation="false" Inherits="Masters_Order_FrmProductionTNAPLAN" Codebehind="FrmProductionTNAPLAN.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

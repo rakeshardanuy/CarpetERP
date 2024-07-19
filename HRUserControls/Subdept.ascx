@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Subdept.ascx.cs" Inherits="HRUserControls_Subdept" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="HRUserControls_Subdept" Codebehind="Subdept.ascx.cs" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
 <script type="text/javascript">

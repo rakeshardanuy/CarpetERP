@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Punch Card Indent Receive" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmPunchCardIndentReceive.aspx.cs" Inherits="Masters_PunchCardIndent_FrmPunchCardIndentReceive" %>
+﻿<%@ Page Title="Punch Card Indent Receive" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_PunchCardIndent_FrmPunchCardIndentReceive" Codebehind="FrmPunchCardIndentReceive.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

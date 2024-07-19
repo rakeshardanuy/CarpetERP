@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="excel.aspx.cs" Inherits="excel" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="excel" Codebehind="excel.aspx.cs" %>
 
 <!DOCTYPE html>
 

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmJobSlip.aspx.cs" Inherits="Masters_ReportForms_frmJobSlip"
-    MasterPageFile="~/ERPmaster.master" Title="JOB SLIP" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_ReportForms_frmJobSlip"
+    MasterPageFile="~/ERPmaster.master" Title="JOB SLIP" Codebehind="frmJobSlip.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

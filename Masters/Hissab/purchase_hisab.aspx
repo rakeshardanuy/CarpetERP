@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="purchase_hisab.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_Hissab_purchase_hisab" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_Hissab_purchase_hisab" EnableEventValidation="false" Codebehind="purchase_hisab.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

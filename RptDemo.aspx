@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" CodeFile="RptDemo.aspx.cs" Inherits="RptDemo" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="RptDemo" Codebehind="RptDemo.aspx.cs" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">

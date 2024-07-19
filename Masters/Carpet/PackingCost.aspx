@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PackingCost.aspx.cs" EnableEventValidation="false"
-    EnableViewState="true" EnableSessionState="True" Inherits="Masters_Carpet_PackingCost" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableEventValidation="false"
+    EnableViewState="true" EnableSessionState="True" Inherits="Masters_Carpet_PackingCost" Codebehind="PackingCost.aspx.cs" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

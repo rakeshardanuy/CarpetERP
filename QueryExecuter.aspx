@@ -1,5 +1,5 @@
-﻿<%@ Page Title="ExecuteQuery" Language="C#" AutoEventWireup="true" CodeFile="QueryExecuter.aspx.cs"
-    Inherits="frmColor" EnableEventValidation="false" %>
+﻿<%@ Page Title="ExecuteQuery" Language="C#" AutoEventWireup="true"
+    Inherits="QueryExecuter" EnableEventValidation="false" Codebehind="QueryExecuter.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <html xmlns="http://www.w3.org/1999/xhtml">

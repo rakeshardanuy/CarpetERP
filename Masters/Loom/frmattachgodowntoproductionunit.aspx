@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PRODUCTION UNIT GODOWN" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmattachgodowntoproductionunit.aspx.cs" Inherits="Masters_Loom_frmattachgodowntoproductionunit" %>
+    AutoEventWireup="true" Inherits="Masters_Loom_frmattachgodowntoproductionunit" Codebehind="frmattachgodowntoproductionunit.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

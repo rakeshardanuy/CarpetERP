@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Bazaar Report Lot TagNo Wise" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmBazaarReportLotTagNoWise.aspx.cs" Inherits="Masters_ReportForms_FrmBazaarReportLotTagNoWise" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmBazaarReportLotTagNoWise" Codebehind="FrmBazaarReportLotTagNoWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

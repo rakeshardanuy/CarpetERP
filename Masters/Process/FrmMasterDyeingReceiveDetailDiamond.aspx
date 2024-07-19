@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Master Dyeing Rec Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmMasterDyeingReceiveDetailDiamond.aspx.cs" Inherits="Masters_Process_FrmMasterDyeingReceiveDetailDiamond" %>
+    AutoEventWireup="true" Inherits="Masters_Process_FrmMasterDyeingReceiveDetailDiamond" Codebehind="FrmMasterDyeingReceiveDetailDiamond.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

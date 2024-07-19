@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="QC Report With Receive Summary" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmQCReportWithBazaarSummary.aspx.cs" Inherits="Masters_ReportForms_FrmQCReportWithBazaarSummary" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmQCReportWithBazaarSummary" Codebehind="FrmQCReportWithBazaarSummary.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

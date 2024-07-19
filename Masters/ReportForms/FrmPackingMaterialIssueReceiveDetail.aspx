@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmPackingMaterialIssueReceiveDetail.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmPackingMaterialIssueReceiveDetail" MasterPageFile="~/ERPmaster.master"
-    Title="PRODUCTION/JOB SUMMARY" %>
+    Title="PRODUCTION/JOB SUMMARY" Codebehind="FrmPackingMaterialIssueReceiveDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

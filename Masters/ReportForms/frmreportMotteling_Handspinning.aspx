@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="MOTTELING_HAND SPINNING REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmreportMotteling_Handspinning.aspx.cs" Inherits="Masters_ReportForms_frmreportMotteling_Handspinning" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmreportMotteling_Handspinning" Codebehind="frmreportMotteling_Handspinning.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

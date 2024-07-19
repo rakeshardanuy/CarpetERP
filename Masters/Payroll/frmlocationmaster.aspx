@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Location master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmlocationmaster.aspx.cs" Inherits="Masters_Payroll_frmlocationmaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmlocationmaster" Codebehind="frmlocationmaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Location.ascx" TagPrefix="uc" TagName="Location" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

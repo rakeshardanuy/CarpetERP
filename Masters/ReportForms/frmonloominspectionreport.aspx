@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="ON Loom Inspection" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmonloominspectionreport.aspx.cs" Inherits="Masters_ReportForms_frmonloominspectionreport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmonloominspectionreport" Codebehind="frmonloominspectionreport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

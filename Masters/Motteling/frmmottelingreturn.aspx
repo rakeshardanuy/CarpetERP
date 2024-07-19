@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Motteling Return" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmmottelingreturn.aspx.cs" Inherits="Masters_Motteling_frmmottelingreturn" %>
+    AutoEventWireup="true" Inherits="Masters_Motteling_frmmottelingreturn" Codebehind="frmmottelingreturn.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

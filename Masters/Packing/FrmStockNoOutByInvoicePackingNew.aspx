@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmStockNoOutByInvoicePackingNew.aspx.cs" Inherits="Masters_Packing_FrmStockNoOutByInvoicePackingNew" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Packing_FrmStockNoOutByInvoicePackingNew" Codebehind="FrmStockNoOutByInvoicePackingNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmItemWiseRateDefine.aspx.cs" Inherits="Masters_Order_FrmItemWiseRateDefine" %>
+    EnableEventValidation="false" Inherits="Masters_Order_FrmItemWiseRateDefine" Codebehind="FrmItemWiseRateDefine.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,6 +1,5 @@
-﻿<%@ Page Title="OnLoom Inspection Consolidated Report" Language="C#" AutoEventWireup="true"
-    CodeFile="FrmOnLoomInspectionConsolidatedReport.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_Campany_FrmOnLoomInspectionConsolidatedReport" EnableEventValidation="false" %>
+﻿<%@ Page Title="OnLoom Inspection Consolidated Report" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_Campany_FrmOnLoomInspectionConsolidatedReport" EnableEventValidation="false" Codebehind="FrmOnLoomInspectionConsolidatedReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="User Enable/Disable" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmuserenable.aspx.cs" Inherits="frmuserenable" %>
+    AutoEventWireup="true" Inherits="frmuserenable" Codebehind="frmuserenable.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

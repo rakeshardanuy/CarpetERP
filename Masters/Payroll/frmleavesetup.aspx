@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Leave Setup" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmleavesetup.aspx.cs" Inherits="Masters_Payroll_frmleavesetup" %>
+﻿<%@ Page Title="Leave Setup" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Payroll_frmleavesetup" Codebehind="frmleavesetup.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Employee Reports" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmHr_Esipfreport.aspx.cs" Inherits="Masters_ReportForms_frmHr_Esipfreport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmHr_Esipfreport" Codebehind="frmHr_Esipfreport.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

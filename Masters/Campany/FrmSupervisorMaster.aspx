@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" Title="Supervisor Master" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="FrmSupervisorMaster.aspx.cs" Inherits="Masters_Campany_FrmSupervisorMaster"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="Supervisor Master" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_FrmSupervisorMaster"
+    EnableEventValidation="false" Codebehind="FrmSupervisorMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

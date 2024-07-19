@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Download Dashboard Data" CodeFile="FrmDashboard.aspx.cs"
-    Inherits="FrmDashboard" %>
+    EnableEventValidation="false" Title="Download Dashboard Data"
+    Inherits="FrmDashboard" Codebehind="FrmDashboard.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

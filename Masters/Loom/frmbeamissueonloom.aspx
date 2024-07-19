@@ -1,5 +1,4 @@
-﻿<%@ Page Title="BEAM ISSUE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmbeamissueonloom.aspx.cs" Inherits="Masters_Loom_frmbeamissueonloom" %>
+﻿<%@ Page Title="BEAM ISSUE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Loom_frmbeamissueonloom" Codebehind="frmbeamissueonloom.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

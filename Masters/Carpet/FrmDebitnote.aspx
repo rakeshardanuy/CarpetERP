@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="DEBIT NOTE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableViewState="true" EnableEventValidation="false" EnableSessionState="True"
-    CodeFile="FrmDebitnote.aspx.cs" Inherits="Masters_Carpet_FrmDebitnote" %>
+    EnableViewState="true" EnableEventValidation="false" EnableSessionState="True" Inherits="Masters_Carpet_FrmDebitnote" Codebehind="FrmDebitnote.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

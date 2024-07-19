@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmOrderDelete.aspx.cs" Inherits="Masters_Order_frmOrderDelete"
-    MasterPageFile="~/ERPmaster.master" Title="DELETE ORDER" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Order_frmOrderDelete"
+    MasterPageFile="~/ERPmaster.master" Title="DELETE ORDER" Codebehind="frmOrderDelete.aspx.cs" %>
 
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

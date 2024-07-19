@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Configuration;
+﻿using CarpetERP.Core.DAL;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using CrystalDecisions.CrystalReports.Engine;
 using System.Text;
-using ERP.Security;
+using System.Web.UI;
 
-public partial class Login : System.Web.UI.Page
+public partial class LoginErp : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -57,8 +51,8 @@ public partial class Login : System.Web.UI.Page
     }
     protected void btnLogin_Click(object sender, EventArgs e)
     {
-       
-       
+
+
         SqlConnection con = new SqlConnection(ErpGlobal.DBCONNECTIONSTRING);
         if (con.State == ConnectionState.Closed)
         {
@@ -99,15 +93,15 @@ public partial class Login : System.Web.UI.Page
                 //string lKey = _arrPara[11].Value.ToString();
                 //if (!string.IsNullOrEmpty(lKey) && common.isLicenseValid(lKey, Convert.ToInt32(_arrPara[6].Value)))
                 //{
-                    Session["varuserid"] = _arrPara[2].Value;
-                    Session["varusername"] = _arrPara[3].Value;
-                    Session["varDepartment"] = _arrPara[4].Value;
-                    Session["varCompanyName"] = _arrPara[7].Value;
-                    string name = Session["varusername"].ToString().ToLower();
-                    Session["varCompanyId"] = _arrPara[6].Value;
-                    Session["varusername"] = "Welcome  " + name[0].ToString().ToUpper() + name.Substring(1);
-                    Session["VarcompanyNo"] = _arrPara[6].Value;
-                    Response.Redirect("main.aspx");
+                Session["varuserid"] = _arrPara[2].Value;
+                Session["varusername"] = _arrPara[3].Value;
+                Session["varDepartment"] = _arrPara[4].Value;
+                Session["varCompanyName"] = _arrPara[7].Value;
+                string name = Session["varusername"].ToString().ToLower();
+                Session["varCompanyId"] = _arrPara[6].Value;
+                Session["varusername"] = "Welcome  " + name[0].ToString().ToUpper() + name.Substring(1);
+                Session["VarcompanyNo"] = _arrPara[6].Value;
+                Response.Redirect("main.aspx");
                 //}
                 //else
                 //{
@@ -128,7 +122,7 @@ public partial class Login : System.Web.UI.Page
         }
         finally
         {
-           
+
             if (con.State == ConnectionState.Open)
             {
 

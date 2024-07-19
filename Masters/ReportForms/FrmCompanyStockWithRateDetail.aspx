@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Stock With Rate Amount Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmCompanyStockWithRateDetail.aspx.cs" Inherits="Masters_ReportForms_FrmCompanyStockWithRateDetail" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmCompanyStockWithRateDetail" Codebehind="FrmCompanyStockWithRateDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

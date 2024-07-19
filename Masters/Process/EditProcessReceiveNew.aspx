@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" Title="EditProcessReceiveNew" AutoEventWireup="true" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" CodeFile="EditProcessReceiveNew.aspx.cs"
-    Inherits="Masters_process_EditProcessReceiveNew" %>
+    MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_process_EditProcessReceiveNew" Codebehind="EditProcessReceiveNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmOrderStockAssign.aspx.cs" Inherits="Masters_Order_FrmOrderStockAssign" %>
+    EnableEventValidation="false" Inherits="Masters_Order_FrmOrderStockAssign" Codebehind="FrmOrderStockAssign.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

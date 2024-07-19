@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Material Issue" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmchangelottag.aspx.cs" Inherits="Masters_Loom_frmchangelottag" %>
+    AutoEventWireup="true" Inherits="Masters_Loom_frmchangelottag" Codebehind="frmchangelottag.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

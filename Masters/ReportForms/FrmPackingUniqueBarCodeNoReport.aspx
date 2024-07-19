@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PACKING UNIQUE BARCODE REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmPackingUniqueBarCodeNoReport.aspx.cs" Inherits="Masters_ReportForms_FrmPackingUniqueBarCodeNoReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmPackingUniqueBarCodeNoReport" Codebehind="FrmPackingUniqueBarCodeNoReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

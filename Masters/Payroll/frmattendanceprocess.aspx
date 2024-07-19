@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Attendance Process" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmattendanceprocess.aspx.cs" Inherits="Masters_Payroll_frmattendanceprocess" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmattendanceprocess" Codebehind="frmattendanceprocess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

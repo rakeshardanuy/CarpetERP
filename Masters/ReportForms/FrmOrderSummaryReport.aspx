@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="ORDER SUMMARY REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmOrderSummaryReport.aspx.cs" Inherits="Masters_ReportForms_FrmOrderSummaryReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmOrderSummaryReport" Codebehind="FrmOrderSummaryReport.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

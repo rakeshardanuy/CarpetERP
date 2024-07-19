@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Finishing Issue Rec By FolioNo" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmFinishingProcess_Issue_Receive_ByFolioNo.aspx.cs" Inherits="Masters_ReportForms_FrmFinishingProcess_Issue_Receive_ByFolioNo" %>
+﻿<%@ Page Title="Finishing Issue Rec By FolioNo" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_FrmFinishingProcess_Issue_Receive_ByFolioNo" Codebehind="FrmFinishingProcess_Issue_Receive_ByFolioNo.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

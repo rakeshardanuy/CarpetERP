@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Calc Options" Language="C#" AutoEventWireup="true" CodeFile="CalcOptions.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_CalcOptions" EnableEventValidation="false" %>
+﻿<%@ Page Title="Calc Options" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_CalcOptions" EnableEventValidation="false" Codebehind="CalcOptions.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

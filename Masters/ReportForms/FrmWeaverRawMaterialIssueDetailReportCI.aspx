@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="WEAVER RAW MATERIAL ISSUE REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmWeaverRawMaterialIssueDetailReportCI.aspx.cs" Inherits="Masters_ReportForms_FrmWeaverRawMaterialIssueDetailReportCI" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmWeaverRawMaterialIssueDetailReportCI" Codebehind="FrmWeaverRawMaterialIssueDetailReportCI.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

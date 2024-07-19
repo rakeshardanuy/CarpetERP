@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Master Quality Type" Language="C#" AutoEventWireup="true" CodeFile="MasterQualityTypeChampa.aspx.cs"
+﻿<%@ Page Title="Master Quality Type" Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_MasterQualityTypeChampa"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="MasterQualityTypeChampa.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddCurrencies.aspx.cs" Inherits="Currencies"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Currencies"
+    EnableEventValidation="false" Codebehind="AddCurrencies.aspx.cs" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <link href="../../App_Themes/Default/Style.css" rel="stylesheet" type="text/css" />

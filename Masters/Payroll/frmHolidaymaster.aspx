@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="HOLIDAY MASTER" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmHolidaymaster.aspx.cs" Inherits="Masters_Payroll_frmHolidaymaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmHolidaymaster" Codebehind="frmHolidaymaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

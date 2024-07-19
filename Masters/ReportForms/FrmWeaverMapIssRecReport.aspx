@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Weaver Map Iss Rec Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmWeaverMapIssRecReport.aspx.cs" Inherits="Masters_ReportForms_FrmWeaverMapIssRecReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmWeaverMapIssRecReport" Codebehind="FrmWeaverMapIssRecReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

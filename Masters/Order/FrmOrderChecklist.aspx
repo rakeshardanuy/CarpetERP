@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmOrderChecklist.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Order_FrmOrderChecklist" Title="Repeat Order" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="FrmOrderChecklist.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

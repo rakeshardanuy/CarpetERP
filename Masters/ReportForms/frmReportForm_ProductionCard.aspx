@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmReportForm_ProductionCard.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmReportFormJob_ProductionCard" MasterPageFile="~/ERPmaster.master"
-    Title="PRODUCTION CARD" %>
+    Title="PRODUCTION CARD" Codebehind="frmReportForm_ProductionCard.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

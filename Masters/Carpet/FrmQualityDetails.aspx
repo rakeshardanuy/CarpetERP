@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" EnableViewStateMac="false"
-    AutoEventWireup="true" CodeFile="FrmQualityDetails.aspx.cs" Inherits="Masters_Carpet_FrmQualityDetails"
-    EnableEventValidation="false" %>
+    AutoEventWireup="true" Inherits="Masters_Carpet_FrmQualityDetails"
+    EnableEventValidation="false" Codebehind="FrmQualityDetails.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

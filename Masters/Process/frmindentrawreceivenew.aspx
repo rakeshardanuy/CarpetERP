@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="INDENT RECEIVE" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmindentrawreceivenew.aspx.cs" Inherits="Masters_Process_frmindentrawreceivenew" %>
+    AutoEventWireup="true" Inherits="Masters_Process_frmindentrawreceivenew" Codebehind="frmindentrawreceivenew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

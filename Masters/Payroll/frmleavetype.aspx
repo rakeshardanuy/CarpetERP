@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="NEW LEAVE TYPE" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmleavetype.aspx.cs" Inherits="Masters_Payroll_frmleavetype" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmleavetype" Codebehind="frmleavetype.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Leavetype.ascx" TagPrefix="uc" TagName="frmleavetype" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

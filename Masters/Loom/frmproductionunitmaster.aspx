@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PRODUCTION UNIT MASTER" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmproductionunitmaster.aspx.cs" Inherits="Masters_Loom_frmproductionunitmaster" %>
+    AutoEventWireup="true" Inherits="Masters_Loom_frmproductionunitmaster" Codebehind="frmproductionunitmaster.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

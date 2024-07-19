@@ -1,5 +1,4 @@
-﻿<%@ Page Title="ShippingAgent" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="ShippingMaster.aspx.cs" Inherits="ShippingMaster" EnableEventValidation="false" %>
+﻿<%@ Page Title="ShippingAgent" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="ShippingMaster" EnableEventValidation="false" Codebehind="ShippingMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

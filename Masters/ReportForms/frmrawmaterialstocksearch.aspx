@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Raw Material Stock search" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmrawmaterialstocksearch.aspx.cs" Inherits="Masters_ReportForms_frmrawmaterialstocksearch" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmrawmaterialstocksearch" Codebehind="frmrawmaterialstocksearch.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

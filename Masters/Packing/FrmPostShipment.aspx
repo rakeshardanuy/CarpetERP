@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmPostShipment.aspx.cs" Inherits="Masters_Packing_FrmPostShipment"
-    Title="POST SHIPMENT" %>
+    EnableEventValidation="false" Inherits="Masters_Packing_FrmPostShipment"
+    Title="POST SHIPMENT" Codebehind="FrmPostShipment.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmInvoiceTermsBankDetail.aspx.cs"
-    Inherits="Masters_Packing_FrmInvoiceTermsBankDetail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Packing_FrmInvoiceTermsBankDetail" Codebehind="FrmInvoiceTermsBankDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

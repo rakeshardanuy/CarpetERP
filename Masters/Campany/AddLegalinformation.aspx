@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddLegalinformation.aspx.cs"
-    Inherits="Masters_AddLegalinformation" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_AddLegalinformation" EnableEventValidation="false" Codebehind="AddLegalinformation.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

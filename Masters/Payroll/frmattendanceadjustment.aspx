@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Attendance Adjustment" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmattendanceadjustment.aspx.cs" Inherits="Masters_Payroll_frmattendanceadjustment" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmattendanceadjustment" Codebehind="frmattendanceadjustment.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

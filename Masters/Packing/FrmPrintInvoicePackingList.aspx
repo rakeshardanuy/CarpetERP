@@ -1,5 +1,5 @@
-﻿<%@ Page Title="INVOICE/PACKING PRINT" Language="C#" AutoEventWireup="true" CodeFile="FrmPrintInvoicePackingList.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_Packing_FrmPrintInvoicePackingList" %>
+﻿<%@ Page Title="INVOICE/PACKING PRINT" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_Packing_FrmPrintInvoicePackingList" Codebehind="FrmPrintInvoicePackingList.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

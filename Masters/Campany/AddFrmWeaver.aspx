@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddFrmWeaver.aspx.cs" Inherits="Masters_Campany_AddFrmWeaver"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Campany_AddFrmWeaver"
+    EnableEventValidation="false" Codebehind="AddFrmWeaver.aspx.cs" %>
 
 <%@ Register Src="~/UserControls/MasterEmployee.ascx" TagPrefix="uc" TagName="MasterEmployee" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

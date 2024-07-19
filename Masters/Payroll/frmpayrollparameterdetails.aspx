@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Payroll Type Define" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmpayrollparameterdetails.aspx.cs" Inherits="Masters_Payroll_frmpayrollparameterdetails" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmpayrollparameterdetails" Codebehind="frmpayrollparameterdetails.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

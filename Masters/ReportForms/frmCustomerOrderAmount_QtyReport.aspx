@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmCustomerOrderAmount_QtyReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmCustomerOrderAmount_QtyReport" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Month/Customer Wise Order In Hands" %>
+    EnableEventValidation="false" Title="Month/Customer Wise Order In Hands" Codebehind="frmCustomerOrderAmount_QtyReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

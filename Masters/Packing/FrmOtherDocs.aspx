@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Other Documents" Language="C#" MasterPageFile="~/ERPmaster.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="FrmOtherDocs.aspx.cs" Inherits="Masters_Packing_FrmOtherDocs" %>
+    AutoEventWireup="true" Inherits="Masters_Packing_FrmOtherDocs" Codebehind="FrmOtherDocs.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

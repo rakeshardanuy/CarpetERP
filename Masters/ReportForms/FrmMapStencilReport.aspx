@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Designer Map Iss Rec Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmMapStencilReport.aspx.cs" Inherits="Masters_ReportForms_FrmMapStencilReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmMapStencilReport" Codebehind="FrmMapStencilReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

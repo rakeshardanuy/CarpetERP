@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddSize.aspx.cs" Inherits="frmSize"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Carpet_AddSize"
+    EnableEventValidation="false" Codebehind="AddSize.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <html xmlns="http://www.w3.org/1999/xhtml">

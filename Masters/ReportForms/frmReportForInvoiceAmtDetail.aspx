@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmReportForInvoiceAmtDetail.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmReportForInvoiceAmtDetail" MasterPageFile="~/ERPmaster.master"
-    Title="INVOICE PAYMENT DETAILS" %>
+    Title="INVOICE PAYMENT DETAILS" Codebehind="frmReportForInvoiceAmtDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

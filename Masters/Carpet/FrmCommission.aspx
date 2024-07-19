@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" CodeFile="FrmCommission.aspx.cs" Inherits="Masters_Carpet_FrmCommission" %>
+    EnableEventValidation="false" Inherits="Masters_Carpet_FrmCommission" Codebehind="FrmCommission.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" CodeFile="FrmFinisherProcessCustomerLWWt.aspx.cs"
-    Inherits="Masters_Process_FrmFinisherProcessCustomerLWWt" %>
+    EnableEventValidation="false"
+    Inherits="Masters_Process_FrmFinisherProcessCustomerLWWt" Codebehind="FrmFinisherProcessCustomerLWWt.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

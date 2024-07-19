@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Dyeing Exclude Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmDyeingExcludeDetailDiamond.aspx.cs" Inherits="Masters_Process_FrmDyeingExcludeDetailDiamond" %>
+    AutoEventWireup="true" Inherits="Masters_Process_FrmDyeingExcludeDetailDiamond" Codebehind="FrmDyeingExcludeDetailDiamond.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

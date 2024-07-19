@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmHomeFurnishingIssueProcessReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmHomeFurnishingIssueProcessReport" EnableEventValidation="false"
-    Title="Home Furnishing Issue Process Report" MasterPageFile="~/ERPmaster.master" %>
+    Title="Home Furnishing Issue Process Report" MasterPageFile="~/ERPmaster.master" Codebehind="FrmHomeFurnishingIssueProcessReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

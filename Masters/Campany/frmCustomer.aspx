@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmCustomer.aspx.cs" Inherits="Masters_Campany_frmCustomer"
-    EnableEventValidation="false" Title="CUSTOMER MASTER" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Campany_frmCustomer"
+    EnableEventValidation="false" Title="CUSTOMER MASTER" MasterPageFile="~/ERPmaster.master" Codebehind="frmCustomer.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Src="~/UserControls/ucmenu.ascx" TagName="ucmenu" TagPrefix="uc2" %>

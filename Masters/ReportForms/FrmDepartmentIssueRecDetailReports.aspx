@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmDepartmentIssueRecDetailReports.aspx.cs"
-    Inherits="Masters_ReportForms_FrmDepartmentIssueRecDetailReports" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_ReportForms_FrmDepartmentIssueRecDetailReports" EnableEventValidation="false" Codebehind="FrmDepartmentIssueRecDetailReports.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

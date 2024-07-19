@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Shape" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="Shape.aspx.cs" Inherits="Masters_Campany_Shape" EnableEventValidation="false" %>
+﻿<%@ Page Title="Shape" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_Shape" EnableEventValidation="false" Codebehind="Shape.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

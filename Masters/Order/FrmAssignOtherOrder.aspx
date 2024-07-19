@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmAssignOtherOrder.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Title="Order Attach Another Order" Inherits="Masters_Order_FrmAssignOtherOrder"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmAssignOtherOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

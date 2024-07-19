@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="ORDER STATUS UPDATE" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="OrderStatus.aspx.cs" Inherits="Masters_Order_OrderStatus" %>
+    AutoEventWireup="true" Inherits="Masters_Order_OrderStatus" Codebehind="OrderStatus.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

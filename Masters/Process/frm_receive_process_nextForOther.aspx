@@ -1,5 +1,5 @@
-﻿<%@ Page Title="JOB RECEIVE" Language="C#" AutoEventWireup="true" CodeFile="frm_receive_process_nextForOther.aspx.cs"
-    Inherits="Masters_Process_frm_receive_process_next" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Title="JOB RECEIVE" Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Process_frm_receive_process_nextForOther" MasterPageFile="~/ERPmaster.master" Codebehind="frm_receive_process_nextForOther.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PRODUCTION ORDER" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmproductionorderonLoomNew.aspx.cs" Inherits="Masters_Loom_frmproductionorderonLoomNew" %>
+    AutoEventWireup="true" Inherits="Masters_Loom_frmproductionorderonLoomNew" Codebehind="frmproductionorderonLoomNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

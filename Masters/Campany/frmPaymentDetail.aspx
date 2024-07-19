@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" Title="PaymentDetail" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="frmPaymentDetail.aspx.cs" Inherits="Masters_Campany_frmPaymentDetail"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="PaymentDetail" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_frmPaymentDetail"
+    EnableEventValidation="false" Codebehind="frmPaymentDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

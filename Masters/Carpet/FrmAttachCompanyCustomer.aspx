@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmAttachCompanyCustomer.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Carpet_FrmAttachCompanyCustomer" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmAttachCompanyCustomer.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ContentPlaceHolderID="CPH_Form" runat="server">

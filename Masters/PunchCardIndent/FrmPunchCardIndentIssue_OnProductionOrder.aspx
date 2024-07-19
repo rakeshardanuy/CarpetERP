@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Punch Card Issue On Production Order" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmPunchCardIndentIssue_OnProductionOrder.aspx.cs" Inherits="Masters_PunchCardIndent_FrmPunchCardIndentIssue_OnProductionOrder" %>
+    AutoEventWireup="true" Inherits="Masters_PunchCardIndent_FrmPunchCardIndentIssue_OnProductionOrder" Codebehind="FrmPunchCardIndentIssue_OnProductionOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

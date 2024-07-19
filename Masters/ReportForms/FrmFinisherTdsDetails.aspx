@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Finisher TDS Details" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmFinisherTdsDetails.aspx.cs" Inherits="Masters_ReportForms_FrmFinisherTdsDetails" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmFinisherTdsDetails" Codebehind="FrmFinisherTdsDetails.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

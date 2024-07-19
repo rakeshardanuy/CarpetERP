@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Dyer Indent Receive" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="ReceiveFromDyer.aspx.cs" Inherits="Masters_Process_ReceiveFromDyer" %>
+    AutoEventWireup="true" Inherits="Masters_Process_ReceiveFromDyer" Codebehind="ReceiveFromDyer.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

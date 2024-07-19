@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" Title="User Authentication" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="UserRights.aspx.cs" Inherits="UserRigets" %>
+﻿<%@ Page Language="C#" Title="User Authentication" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="UserRigets" Codebehind="UserRights.aspx.cs" %>
 
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script src="../Scripts/JScript.js" type="text/javascript"></script>

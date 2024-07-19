@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" Title="CurrencyMaster" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="Currencies.aspx.cs" Inherits="Currencies" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="CurrencyMaster" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_Currencies" EnableEventValidation="false" Codebehind="Currencies.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="PayrollGroupmaster.ascx.cs"
-    Inherits="UserControls_PayrollGroupmaster" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_PayrollGroupmaster" Codebehind="PayrollGroupmaster.ascx.cs" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
 <link href="../../Styles/vijay.css" rel="stylesheet" type="text/css" />

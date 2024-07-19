@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Roll Receive to Stitching" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollReceiveToStitchingAndOtherProcess.aspx.cs"
-    Inherits="Masters_MachineProcess_FrmRollReceiveToStitchingAndOtherProcess" %>
+    AutoEventWireup="true"
+    Inherits="Masters_MachineProcess_FrmRollReceiveToStitchingAndOtherProcess" Codebehind="FrmRollReceiveToStitchingAndOtherProcess.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

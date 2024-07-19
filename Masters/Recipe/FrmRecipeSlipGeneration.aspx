@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmRecipeSlipGeneration.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Recipe_FrmRecipeSlipGeneration"
-    EnableEventValidation="false" Title="Recipe Slip Generation" %>
+    EnableEventValidation="false" Title="Recipe Slip Generation" Codebehind="FrmRecipeSlipGeneration.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

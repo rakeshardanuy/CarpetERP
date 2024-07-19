@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmDefineChemicalRate.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="FrmDefineChemicalRate" MasterPageFile="~/ERPmaster.master" Title="Define Chemical Rate"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmDefineChemicalRate.aspx.cs" %>
 
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script type="text/javascript">

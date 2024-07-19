@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="100%_Qc report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmqcrpeort_100percent.aspx.cs" Inherits="Masters_ReportForms_frmqcrpeort_100percent" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmqcrpeort_100percent" Codebehind="frmqcrpeort_100percent.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

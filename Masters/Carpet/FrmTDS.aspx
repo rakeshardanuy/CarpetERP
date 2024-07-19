@@ -1,5 +1,5 @@
-﻿<%@ Page Title="TDSMASTER" Language="C#" AutoEventWireup="true" CodeFile="FrmTDS.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_FrmTDS" EnableEventValidation="false" %>
+﻿<%@ Page Title="TDSMASTER" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_FrmTDS" EnableEventValidation="false" Codebehind="FrmTDS.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

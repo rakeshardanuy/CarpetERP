@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Shift Schedule" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmshiftschedule.aspx.cs" Inherits="Masters_Payroll_frmshiftschedule" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmshiftschedule" Codebehind="frmshiftschedule.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

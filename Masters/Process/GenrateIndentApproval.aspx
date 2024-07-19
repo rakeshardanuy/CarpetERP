@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="GenrateIndentApproval.aspx.cs" Inherits="Masters_Process_GenrateIndentApproval" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Process_GenrateIndentApproval" Codebehind="GenrateIndentApproval.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="form" ContentPlaceHolderID="CPH_Form" runat="Server">

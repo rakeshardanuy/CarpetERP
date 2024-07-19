@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Tool Iss Rec" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmtoolissrec.aspx.cs" Inherits="Masters_ReportForms_frmtoolissrec" %>
+﻿<%@ Page Title="Tool Iss Rec" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmtoolissrec" Codebehind="frmtoolissrec.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

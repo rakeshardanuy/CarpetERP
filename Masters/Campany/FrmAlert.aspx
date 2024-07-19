@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmAlert.aspx.cs" Inherits="Masters_Campany_FrmAlert" %>
+    EnableEventValidation="false" Inherits="Masters_Campany_FrmAlert" Codebehind="FrmAlert.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

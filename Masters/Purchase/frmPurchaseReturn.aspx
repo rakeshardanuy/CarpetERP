@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmPurchaseReturn.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     EnableEventValidation="true" Inherits="Masters_Purchase_frmPurchaseReturn" MasterPageFile="~/ERPmaster.master"
-    Title="PURCHASE RETURN" %>
+    Title="PURCHASE RETURN" Codebehind="frmPurchaseReturn.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

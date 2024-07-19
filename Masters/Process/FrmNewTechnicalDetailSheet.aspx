@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="New Technical Detail Sheet" Language="C#" AutoEventWireup="true"
-    MasterPageFile="~/ERPmaster.master" CodeFile="FrmNewTechnicalDetailSheet.aspx.cs"
-    Inherits="Masters_Process_FrmNewTechnicalDetailSheet" EnableEventValidation="false" %>
+    MasterPageFile="~/ERPmaster.master"
+    Inherits="Masters_Process_FrmNewTechnicalDetailSheet" EnableEventValidation="false" Codebehind="FrmNewTechnicalDetailSheet.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Mainpage" ContentPlaceHolderID="CPH_Form" runat="server">

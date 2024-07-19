@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Designation master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmdesignationmaster.aspx.cs" Inherits="Masters_Payroll_frmdesignationmaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmdesignationmaster" Codebehind="frmdesignationmaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Designationmaster.ascx" TagPrefix="uc" TagName="Designationmaster" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

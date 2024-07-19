@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddBuyingHouse.aspx.cs" Inherits="Masters_Campany_AddBuyingHouse"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Campany_AddBuyingHouse"
+    EnableEventValidation="false" Codebehind="AddBuyingHouse.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Src="../../UserControls/SearchA.ascx" TagName="SearchA" TagPrefix="uc1" %>

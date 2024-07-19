@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="mark attendance manually" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmmarkattendancemanualy.aspx.cs" Inherits="Masters_Payroll_frmmarkattendancemanualy" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmmarkattendancemanualy" Codebehind="frmmarkattendancemanualy.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

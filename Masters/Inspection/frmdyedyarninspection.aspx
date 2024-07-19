@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Dyed Yarn Inspection" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmdyedyarninspection.aspx.cs" Inherits="Masters_Inspection_frmdyedyarninspection" %>
+    AutoEventWireup="true" Inherits="Masters_Inspection_frmdyedyarninspection" Codebehind="frmdyedyarninspection.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

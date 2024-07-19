@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AccessOrders.aspx.cs" Inherits="AccessOrders"
-    MasterPageFile="~/ERPmaster.master" Title="Confirm/Unconfirm DraftOrder" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="AccessOrders"
+    MasterPageFile="~/ERPmaster.master" Title="Confirm/Unconfirm DraftOrder" Codebehind="AccessOrders.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

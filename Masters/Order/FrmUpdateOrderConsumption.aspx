@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmUpdateOrderConsumption.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Order_FrmUpdateOrderConsumption" MasterPageFile="~/ERPmaster.master"
-    Title="Update Order Consumption" %>
+    Title="Update Order Consumption" Codebehind="FrmUpdateOrderConsumption.aspx.cs" %>
 
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

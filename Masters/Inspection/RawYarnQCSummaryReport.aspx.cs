@@ -1,5 +1,5 @@
 ﻿using IExpro.Core.Common;
-using System;
+using System;using CarpetERP.Core.DAL;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;

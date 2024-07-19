@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="purchase_material_reprt.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" ViewStateMode="Enabled" EnableEventValidation="false"
-    Inherits="Masters_Purchase_purchase_material_reprt" %>
+    Inherits="Masters_Purchase_purchase_material_reprt" Codebehind="purchase_material_reprt.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

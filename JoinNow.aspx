@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Erplogin.master" AutoEventWireup="true"
-    CodeFile="JoinNow.aspx.cs" Inherits="JoinNow" EnableEventValidation="false" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Erplogin.master" AutoEventWireup="true" Inherits="JoinNow" EnableEventValidation="false" Codebehind="JoinNow.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

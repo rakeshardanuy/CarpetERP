@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" Title="UPDATE YARN/WARPING/MOTTELING RATE" AutoEventWireup="true"
-    CodeFile="frmUpdate_YarnWarpingMottelingRate.aspx.cs" Inherits="Masters_ReportForms_frmUpdate_YarnWarpingMottelingRate"
-    MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" Title="UPDATE YARN/WARPING/MOTTELING RATE" AutoEventWireup="true" Inherits="Masters_ReportForms_frmUpdate_YarnWarpingMottelingRate"
+    MasterPageFile="~/ERPmaster.master" Codebehind="frmUpdate_YarnWarpingMottelingRate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -3,7 +3,7 @@ using DocumentFormat.OpenXml.ExtendedProperties;
 using DocumentFormat.OpenXml.Wordprocessing;
 using OfficeOpenXml;
 using OfficeOpenXml.FormulaParsing.Excel.Functions.Math;
-using System;
+using System;using CarpetERP.Core.DAL;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;

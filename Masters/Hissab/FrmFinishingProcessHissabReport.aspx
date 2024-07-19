@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="FINISHING HISSAB REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmFinishingProcessHissabReport.aspx.cs" Inherits="Masters_Hissab_FrmFinishingProcessHissabReport" %>
+    AutoEventWireup="true" Inherits="Masters_Hissab_FrmFinishingProcessHissabReport" Codebehind="FrmFinishingProcessHissabReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

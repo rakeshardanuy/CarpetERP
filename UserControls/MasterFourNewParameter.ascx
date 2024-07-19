@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterFourNewParameter.ascx.cs"
-    Inherits="UserControls_MasterFourNewParameter" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_MasterFourNewParameter" Codebehind="MasterFourNewParameter.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="HandSpinning Return" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmHandspinningreturn.aspx.cs" Inherits="Masters_HandSpinning_frmHandspinningreturn" %>
+    AutoEventWireup="true" Inherits="Masters_HandSpinning_frmHandspinningreturn" Codebehind="frmHandspinningreturn.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

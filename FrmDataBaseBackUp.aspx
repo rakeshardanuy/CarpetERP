@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Take Data Base Back Up" CodeFile="FrmDataBaseBackUp.aspx.cs"
-    Inherits="FrmDataBaseBackUp" %>
+    EnableEventValidation="false" Title="Take Data Base Back Up"
+    Inherits="FrmDataBaseBackUp" Codebehind="FrmDataBaseBackUp.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

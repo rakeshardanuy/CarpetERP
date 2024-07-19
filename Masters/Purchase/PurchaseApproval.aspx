@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PurchaseApproval.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Purchase_PurchaseApproval" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Purchase_PurchaseApproval" Codebehind="PurchaseApproval.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="form" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Switch Company" Language="C#" AutoEventWireup="true" CodeFile="FrmSwitchCompany.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="FrmSwitchCompany" EnableEventValidation="false" %>
+﻿<%@ Page Title="Switch Company" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="FrmSwitchCompany" EnableEventValidation="false" Codebehind="FrmSwitchCompany.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Stitching Material Issue" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmRollStitchingMaterialIssue.aspx.cs" Inherits="Masters_MachineProcess_FrmRollStitchingMaterialIssue" %>
+    AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmRollStitchingMaterialIssue" Codebehind="FrmRollStitchingMaterialIssue.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

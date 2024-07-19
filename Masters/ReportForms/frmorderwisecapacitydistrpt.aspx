@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmorderwisecapacitydistrpt.aspx.cs" Inherits="Masters_ReportForms_frmorderwisecapacitydistrpt" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmorderwisecapacitydistrpt" Codebehind="frmorderwisecapacitydistrpt.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <%--<script type="text/javascript" src="../../Scripts/Fixfocus.js"></script>--%>

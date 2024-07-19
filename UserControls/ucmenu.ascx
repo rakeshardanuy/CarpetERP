@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ucmenu.ascx.cs" Inherits="UserControls_ucmenu" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls_ucmenu" Codebehind="ucmenu.ascx.cs" %>
 <%--<link href="Styles/vijay.css" rel="stylesheet" type="text/css" />--%>
 <style type="text/css">
     .toolbar

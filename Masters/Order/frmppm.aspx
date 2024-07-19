@@ -1,5 +1,4 @@
-﻿<%@ Page Title="PPM" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmppm.aspx.cs" Inherits="Masters_Order_frmppm" %>
+﻿<%@ Page Title="PPM" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Order_frmppm" Codebehind="frmppm.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

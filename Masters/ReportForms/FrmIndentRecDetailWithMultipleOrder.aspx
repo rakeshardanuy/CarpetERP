@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmIndentRecDetailWithMultipleOrder.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmIndentRecDetailWithMultipleOrder" Title="INDENT_REC_DETAIL_WithOrder"
-    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" %>
+    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Codebehind="FrmIndentRecDetailWithMultipleOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

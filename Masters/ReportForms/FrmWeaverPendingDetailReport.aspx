@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmWeaverPendingDetailReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmWeaverPendingDetailReport" MasterPageFile="~/ERPmaster.master"
-    Title="Weaver Pending Detail Report" EnableEventValidation="false" %>
+    Title="Weaver Pending Detail Report" EnableEventValidation="false" Codebehind="FrmWeaverPendingDetailReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

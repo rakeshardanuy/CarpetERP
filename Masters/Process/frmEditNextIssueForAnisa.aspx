@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmEditNextIssueForAnisa.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Process_frmEditNextIssueForAnisa" MasterPageFile="~/ERPmaster.master"
-    Title="Edit Next Issue" %>
+    Title="Edit Next Issue" Codebehind="frmEditNextIssueForAnisa.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

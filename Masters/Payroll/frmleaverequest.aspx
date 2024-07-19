@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Leave Requests" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmleaverequest.aspx.cs" Inherits="Masters_Payroll_frmleaverequest" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmleaverequest" Codebehind="frmleaverequest.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

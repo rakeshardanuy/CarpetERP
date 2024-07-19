@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmTagging.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    Title="Order Tagging" Inherits="Masters_Order_FrmTagging" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    Title="Order Tagging" Inherits="Masters_Order_FrmTagging" EnableEventValidation="false" Codebehind="FrmTagging.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

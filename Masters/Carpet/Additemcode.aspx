@@ -1,5 +1,5 @@
-﻿<%@ Page Title="SubQuality" Language="C#" AutoEventWireup="true" CodeFile="Additemcode.aspx.cs"
-    Inherits="Masters_Carpet_itemcode" EnableEventValidation="false" %>
+﻿<%@ Page Title="SubQuality" Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Carpet_itemcode" EnableEventValidation="false" Codebehind="Additemcode.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

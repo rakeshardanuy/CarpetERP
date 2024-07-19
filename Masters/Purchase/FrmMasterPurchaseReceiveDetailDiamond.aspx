@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Master Purchase Receive Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmMasterPurchaseReceiveDetailDiamond.aspx.cs" Inherits="Masters_Purchase_FrmMasterPurchaseReceiveDetailDiamond" %>
+    AutoEventWireup="true" Inherits="Masters_Purchase_FrmMasterPurchaseReceiveDetailDiamond" Codebehind="FrmMasterPurchaseReceiveDetailDiamond.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

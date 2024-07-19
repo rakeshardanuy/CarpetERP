@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="main.aspx.cs" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Inherits="main" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
+    EnableEventValidation="false" Inherits="main" Codebehind="main.aspx.cs" %>
 
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">            
     <div style="background-color: #edf3fe; height: 591px">

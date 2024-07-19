@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmBomAndConsumptionDetail.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Title="Bom And Consumption Detail" Inherits="Masters_ReportForms_FrmBomAndConsumptionDetail"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmBomAndConsumptionDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

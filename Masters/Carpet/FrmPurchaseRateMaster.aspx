@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmPurchaseRateMaster.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Process_FrmPurchaseRateMaster" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Purchase Rate Master" %>
+    EnableEventValidation="false" Title="Purchase Rate Master" Codebehind="FrmPurchaseRateMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ContentPlaceHolderID="CPH_Form" runat="server" ID="Page">

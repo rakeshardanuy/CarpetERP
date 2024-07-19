@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmEmpSalaryReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmEmpSalaryReport" EnableEventValidation="false"
-    Title="Emp Salary Report" MasterPageFile="~/ERPmaster.master" %>
+    Title="Emp Salary Report" MasterPageFile="~/ERPmaster.master" Codebehind="FrmEmpSalaryReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

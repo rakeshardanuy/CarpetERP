@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="goods issue/Receive for job-work" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmgstgoodssentforjob.aspx.cs" Inherits="Masters_ReportForms_frmgstgoodssentforjob" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmgstgoodssentforjob" Codebehind="frmgstgoodssentforjob.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

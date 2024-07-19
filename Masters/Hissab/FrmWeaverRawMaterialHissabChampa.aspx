@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Weaver RawMaterial Hissab" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmWeaverRawMaterialHissabChampa.aspx.cs" Inherits="Masters_Hissab_FrmWeaverRawMaterialHissabChampa" %>
+    AutoEventWireup="true" Inherits="Masters_Hissab_FrmWeaverRawMaterialHissabChampa" Codebehind="FrmWeaverRawMaterialHissabChampa.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,6 +1,5 @@
-﻿<%@ Page Language="C#" Title="EditProcessIssue" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="EditProcessIssueNew.aspx.cs" Inherits="Masters_ProcessIssue_ProcessIssueNew"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="EditProcessIssue" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_ProcessIssue_ProcessIssueNew"
+    EnableEventValidation="false" Codebehind="EditProcessIssueNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

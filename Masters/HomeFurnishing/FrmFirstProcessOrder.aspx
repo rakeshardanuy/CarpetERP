@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="STITCHING ORDER" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmFirstProcessOrder.aspx.cs" Inherits="Masters_HomeFurnishing_FrmFirstProcessOrder" %>
+    AutoEventWireup="true" Inherits="Masters_HomeFurnishing_FrmFirstProcessOrder" Codebehind="FrmFirstProcessOrder.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

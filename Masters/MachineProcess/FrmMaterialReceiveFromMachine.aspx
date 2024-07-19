@@ -1,5 +1,4 @@
-﻿<%@ Page Title="MATERIAL RECEIVE FROM MACHINE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmMaterialReceiveFromMachine.aspx.cs" Inherits="Masters_MachineProcess_FrmMaterialReceiveFromMachine" %>
+﻿<%@ Page Title="MATERIAL RECEIVE FROM MACHINE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_MachineProcess_FrmMaterialReceiveFromMachine" Codebehind="FrmMaterialReceiveFromMachine.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

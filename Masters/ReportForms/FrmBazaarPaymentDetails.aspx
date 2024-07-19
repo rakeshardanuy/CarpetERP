@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Bazaar Payment Details" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmBazaarPaymentDetails.aspx.cs" Inherits="Masters_ReportForms_FrmBazaarPaymentDetails" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmBazaarPaymentDetails" Codebehind="FrmBazaarPaymentDetails.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

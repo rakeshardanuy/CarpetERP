@@ -1,5 +1,5 @@
-﻿<%@ Page Title="ItemCategory" Language="C#" AutoEventWireup="true" CodeFile="frmitemcatagory.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="frmitemcatagory" EnableEventValidation="false" %>
+﻿<%@ Page Title="ItemCategory" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="frmitemcatagory" EnableEventValidation="false" Codebehind="frmitemcatagory.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Yarn Opening Receive" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmyarnopeningReceiveNew.aspx.cs" Inherits="Masters_YarnOpening_frmyarnopeningReceiveNew" %>
+    AutoEventWireup="true" Inherits="Masters_YarnOpening_frmyarnopeningReceiveNew" Codebehind="frmyarnopeningReceiveNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

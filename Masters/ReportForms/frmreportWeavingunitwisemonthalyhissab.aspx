@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="WEAVING UNIT WISE MONTHLY HISSAB" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmreportWeavingunitwisemonthalyhissab.aspx.cs"
-    Inherits="Masters_ReportForms_frmreportWeavingunitwisemonthalyhissab" %>
+    AutoEventWireup="true"
+    Inherits="Masters_ReportForms_frmreportWeavingunitwisemonthalyhissab" Codebehind="frmreportWeavingunitwisemonthalyhissab.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

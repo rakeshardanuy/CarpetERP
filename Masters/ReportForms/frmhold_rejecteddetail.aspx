@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Hold/Rejected Pcs Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmhold_rejecteddetail.aspx.cs" Inherits="Masters_ReportForms_frmhold_rejecteddetail" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmhold_rejecteddetail" Codebehind="frmhold_rejecteddetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

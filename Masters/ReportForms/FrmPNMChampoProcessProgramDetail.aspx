@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Process program Detail" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmPNMChampoProcessProgramDetail.aspx.cs" Inherits="Masters_ReportForms_FrmPNMChampoProcessProgramDetail" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmPNMChampoProcessProgramDetail" Codebehind="FrmPNMChampoProcessProgramDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" Title="Carriage" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="frmCarriage.aspx.cs" Inherits="Masters_Campany_frmCarriage" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="Carriage" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Campany_frmCarriage" EnableEventValidation="false" Codebehind="frmCarriage.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

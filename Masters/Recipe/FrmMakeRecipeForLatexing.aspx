@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Make Recipe For Latexing" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmMakeRecipeForLatexing.aspx.cs" Inherits="Masters_Recipe_FrmMakeRecipeForLatexing" %>
+    AutoEventWireup="true" Inherits="Masters_Recipe_FrmMakeRecipeForLatexing" Codebehind="FrmMakeRecipeForLatexing.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

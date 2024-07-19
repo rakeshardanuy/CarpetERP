@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="DEFINE PROCESS RATE MASTER REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmDefineProcessRateReport.aspx.cs"
-    Inherits="Masters_ReportForms_FrmDefineProcessRateReport" %>
+    AutoEventWireup="true"
+    Inherits="Masters_ReportForms_FrmDefineProcessRateReport" Codebehind="FrmDefineProcessRateReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

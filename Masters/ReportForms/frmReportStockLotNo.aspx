@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmReportStockLotNo.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmReportStockLotNo" MasterPageFile="~/ERPmaster.master"
-    Title="Check Stock No With Lot No./Batch No." %>
+    Title="Check Stock No With Lot No./Batch No." Codebehind="frmReportStockLotNo.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

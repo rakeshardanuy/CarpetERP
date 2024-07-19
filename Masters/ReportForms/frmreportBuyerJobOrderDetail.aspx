@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmreportBuyerJobOrderDetail.aspx.cs"
-    Inherits="Masters_ReportForms_frmreportBuyerJobOrderDetail" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_ReportForms_frmreportBuyerJobOrderDetail" MasterPageFile="~/ERPmaster.master" Codebehind="frmreportBuyerJobOrderDetail.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

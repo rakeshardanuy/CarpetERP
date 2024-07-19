@@ -1,5 +1,4 @@
-﻿<%@ Page Title="CategorySeprate" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="CategorySeparate.aspx.cs" Inherits="CategorySeparate" EnableEventValidation="false" %>
+﻿<%@ Page Title="CategorySeprate" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="CategorySeparate" EnableEventValidation="false" Codebehind="CategorySeparate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

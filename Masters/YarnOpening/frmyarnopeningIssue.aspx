@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Yarn opening Issue" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmyarnopeningIssue.aspx.cs" Inherits="Masters_YarnOpening_frmyarnopeningIssue" %>
+    AutoEventWireup="true" Inherits="Masters_YarnOpening_frmyarnopeningIssue" Codebehind="frmyarnopeningIssue.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="CPH" ContentPlaceHolderID="CPH_Form" runat="Server">

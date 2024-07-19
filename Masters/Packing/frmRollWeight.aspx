@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Roll Weight" Language="C#" MasterPageFile="~/ERPmasterPopUp.master"
-    AutoEventWireup="true" CodeFile="frmRollWeight.aspx.cs" Inherits="Masters_Packing_frmRollWeight" %>
+    AutoEventWireup="true" Inherits="Masters_Packing_frmRollWeight" Codebehind="frmRollWeight.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script type="text/javascript">

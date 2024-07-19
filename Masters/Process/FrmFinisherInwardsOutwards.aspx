@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" Title="Finisher Inwards/Outwards" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="FrmFinisherInwardsOutwards.aspx.cs" Inherits="Masters_Process_FrmFinisherInwardsOutwards" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" Title="Finisher Inwards/Outwards" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Process_FrmFinisherInwardsOutwards" EnableEventValidation="false" Codebehind="FrmFinisherInwardsOutwards.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

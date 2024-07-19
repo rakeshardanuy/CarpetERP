@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="INVOICE/PACKING SLIP" Language="C#" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" AutoEventWireup="true" CodeFile="frminvoicenew.aspx.cs"
-    Inherits="Masters_Packing_frminvoicenew" %>
+    EnableEventValidation="false" AutoEventWireup="true"
+    Inherits="Masters_Packing_frminvoicenew" Codebehind="frminvoicenew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

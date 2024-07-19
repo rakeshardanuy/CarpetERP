@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmInvoice.aspx.cs" Inherits="Masters_Packing_FrmInvoice"
-    EnableSessionState="True" EnableViewState="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Packing_FrmInvoice"
+    EnableSessionState="True" EnableViewState="true" Codebehind="FrmInvoice.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

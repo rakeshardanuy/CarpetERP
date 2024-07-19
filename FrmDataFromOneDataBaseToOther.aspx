@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" Title="Tranfer Data From DataBase" CodeFile="FrmDataFromOneDataBaseToOther.aspx.cs"
-    Inherits="FrmDataFromOneDataBaseToOther" %>
+    EnableEventValidation="false" Title="Tranfer Data From DataBase"
+    Inherits="FrmDataFromOneDataBaseToOther" Codebehind="FrmDataFromOneDataBaseToOther.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

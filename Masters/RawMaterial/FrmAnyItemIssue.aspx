@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Any Item Issue" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmAnyItemIssue.aspx.cs" Inherits="Masters_RawMaterial_FrmAnyItemIssue" %>
+    AutoEventWireup="true" Inherits="Masters_RawMaterial_FrmAnyItemIssue" Codebehind="FrmAnyItemIssue.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="CPH" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmPurchaseVendorWiseDestini.aspx.cs"
-    Inherits="Masters_ReportForms_FrmPurchaseVendorWiseDestini" %>
+    EnableEventValidation="false"
+    Inherits="Masters_ReportForms_FrmPurchaseVendorWiseDestini" Codebehind="FrmPurchaseVendorWiseDestini.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

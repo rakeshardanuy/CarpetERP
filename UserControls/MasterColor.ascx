@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterColor.ascx.cs" Inherits="UserControls_MasterColor" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls_MasterColor" Codebehind="MasterColor.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 
  <script src="../../Scripts/JScript.js" type="text/javascript"></script>

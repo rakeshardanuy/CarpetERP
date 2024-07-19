@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="FrmPanelMakingRowIssue.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_HomeFurnishing_FrmPanelMakingRowIssue" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" EnableEventValidation="false" Inherits="Masters_HomeFurnishing_FrmPanelMakingRowIssue" Codebehind="FrmPanelMakingRowIssue.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

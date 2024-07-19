@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PAYMENT SUMMARY" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmpaymentsummary.aspx.cs" Inherits="Masters_ReportForms_frmpaymentsummary" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmpaymentsummary" Codebehind="frmpaymentsummary.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

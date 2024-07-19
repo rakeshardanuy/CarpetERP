@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true" CodeFile="FrmAddCollection.aspx.cs"
-    Inherits="Masters_Campany_FrmAddCollection" %>
+﻿<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true"
+    Inherits="Masters_Campany_FrmAddCollection" Codebehind="FrmAddCollection.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

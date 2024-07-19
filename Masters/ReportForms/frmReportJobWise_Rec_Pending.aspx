@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmReportJobWise_Rec_Pending.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmReportPackingRegister" MasterPageFile="~/ERPmaster.master"
-    Title="JOB WISE RECEIVE/PENDING/PACKING" EnableEventValidation="false" %>
+    Title="JOB WISE RECEIVE/PENDING/PACKING" EnableEventValidation="false" Codebehind="frmReportJobWise_Rec_Pending.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

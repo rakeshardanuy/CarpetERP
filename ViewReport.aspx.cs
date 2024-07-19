@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using CarpetERP.Core.DAL;
+using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Shared;
+using System;
+using System.Data;
+using System.IO;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Data;
-using CrystalDecisions.CrystalReports.Engine;
-using System.Data;
-using System.Data.SqlClient;
-using System.Configuration;
-using System.IO;
-using CrystalDecisions.Shared;
 
-public partial class _Default : System.Web.UI.Page
+public partial class ViewReport : System.Web.UI.Page
 {
     ReportDocument RD = new ReportDocument();
     DataSet ds = new DataSet();

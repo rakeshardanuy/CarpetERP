@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmFinisherStatusReport.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmFinisherStatusReport" MasterPageFile="~/ERPmaster.master"
-    Title="Finisher Report" EnableEventValidation="false" %>
+    Title="Finisher Report" EnableEventValidation="false" Codebehind="FrmFinisherStatusReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

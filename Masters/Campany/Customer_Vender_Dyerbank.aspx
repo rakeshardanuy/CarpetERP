@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Customer_Vender_Dyerbank.aspx.cs"
-    Inherits="Masters_Campany_Customer_vender_Dyerbank" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Campany_Customer_vender_Dyerbank" EnableEventValidation="false" Codebehind="Customer_Vender_Dyerbank.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

@@ -1,5 +1,4 @@
-﻿<%@ Page Title="WIP" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmwip.aspx.cs" Inherits="Masters_ReportForms_frmwip" %>
+﻿<%@ Page Title="WIP" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_ReportForms_frmwip" Codebehind="frmwip.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <%--<script type="text/javascript" src="../../Scripts/Fixfocus.js"></script>--%>

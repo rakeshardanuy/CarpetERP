@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmasterPopUp.master" AutoEventWireup="true"
-    CodeFile="DefineItemCodeOther.aspx.cs" Inherits="Masters_Carpet_DefineItemCodeOther" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmasterPopUp.master" AutoEventWireup="true" Inherits="Masters_Carpet_DefineItemCodeOther" Codebehind="DefineItemCodeOther.aspx.cs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

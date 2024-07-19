@@ -1,6 +1,6 @@
-﻿<%@ Page Title="GATEIN ORDERNO WISE REPORTS" Language="C#" AutoEventWireup="true" CodeFile="FrmGateInOrderNoWiseReport.aspx.cs"
+﻿<%@ Page Title="GATEIN ORDERNO WISE REPORTS" Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmGateInOrderNoWiseReport" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" %>
+    MasterPageFile="~/ERPmaster.master" Codebehind="FrmGateInOrderNoWiseReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

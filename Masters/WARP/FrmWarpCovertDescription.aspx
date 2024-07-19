@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Warp Convert Description" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmWarpCovertDescription.aspx.cs" Inherits="Masters_WARP_FrmWarpCovertDescription" %>
+    AutoEventWireup="true" Inherits="Masters_WARP_FrmWarpCovertDescription" Codebehind="FrmWarpCovertDescription.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

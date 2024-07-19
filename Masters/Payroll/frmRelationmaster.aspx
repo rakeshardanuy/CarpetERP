@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Relation master" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmRelationmaster.aspx.cs" Inherits="Masters_Payroll_frmRelationmaster" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_frmRelationmaster" Codebehind="frmRelationmaster.aspx.cs" %>
 
 <%@ Register Src="~/HRUserControls/Relation.ascx" TagPrefix="uc" TagName="Relation" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

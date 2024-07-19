@@ -1,5 +1,4 @@
-﻿<%@ Page Title="BEAM RECEIVE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="FrmBeamReceiveonloom.aspx.cs" Inherits="Masters_Loom_FrmBeamReceiveonloom" %>
+﻿<%@ Page Title="BEAM RECEIVE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Loom_FrmBeamReceiveonloom" Codebehind="FrmBeamReceiveonloom.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

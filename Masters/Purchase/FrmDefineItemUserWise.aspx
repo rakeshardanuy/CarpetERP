@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Define Item User Wise" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmDefineItemUserWise.aspx.cs" Inherits="Masters_Purchase_FrmDefineItemUserWise" %>
+    AutoEventWireup="true" Inherits="Masters_Purchase_FrmDefineItemUserWise" Codebehind="FrmDefineItemUserWise.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

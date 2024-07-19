@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Color" Language="C#" AutoEventWireup="true" CodeFile="frmColor.aspx.cs"
-    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_frmColor" EnableEventValidation="false" %>
+﻿<%@ Page Title="Color" Language="C#" AutoEventWireup="true"
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_frmColor" EnableEventValidation="false" Codebehind="frmColor.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CPH_Form" runat="server">

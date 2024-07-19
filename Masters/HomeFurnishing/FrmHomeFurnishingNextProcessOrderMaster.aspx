@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Production Order Issue" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmHomeFurnishingNextProcessOrderMaster.aspx.cs"
-    Inherits="Masters_HomeFurnishing_FrmHomeFurnishingNextProcessOrderMaster" %>
+    AutoEventWireup="true"
+    Inherits="Masters_HomeFurnishing_FrmHomeFurnishingNextProcessOrderMaster" Codebehind="FrmHomeFurnishingNextProcessOrderMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

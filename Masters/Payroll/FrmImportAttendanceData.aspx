@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Import Attendance Data" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmImportAttendanceData.aspx.cs" Inherits="Masters_Payroll_FrmImportAttendanceData" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_FrmImportAttendanceData" Codebehind="FrmImportAttendanceData.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Weaver Raw SubItem Rate" Language="C#" AutoEventWireup="true" CodeFile="WeaverRawSubItemRate.aspx.cs"
+﻿<%@ Page Title="Weaver Raw SubItem Rate" Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_RawMaterial_WeaverRawSubItemRate"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="WeaverRawSubItemRate.aspx.cs" %>
 
 <%@ Register Src="~/UserControls/MasterWeaverRawSubItemRate.ascx" TagPrefix="uc"
     TagName="MasterWeaverRawSubItemRate" %>

@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Bin Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmBinmaster.aspx.cs" Inherits="Masters_Carpet_frmBinmaster" %>
+﻿<%@ Page Title="Bin Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Carpet_frmBinmaster" Codebehind="frmBinmaster.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script language="javascript" type="text/javascript">

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmParameterMaster.aspx.cs"
-    Inherits="Masters_Carpet_frmParameterMaster" EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Carpet_frmParameterMaster" EnableEventValidation="false" Codebehind="frmParameterMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%--User controls regertration--%>

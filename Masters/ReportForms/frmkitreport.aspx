@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Weaving Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmkitreport.aspx.cs" Inherits="Masters_ReportForms_frmkitreport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmkitreport" Codebehind="frmkitreport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

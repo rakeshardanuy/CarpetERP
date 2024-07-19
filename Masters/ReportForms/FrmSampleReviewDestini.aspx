@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    EnableEventValidation="false" CodeFile="FrmSampleReviewDestini.aspx.cs" Inherits="Masters_ReportForms_FrmSampleReviewDestini" %>
+    EnableEventValidation="false" Inherits="Masters_ReportForms_FrmSampleReviewDestini" Codebehind="FrmSampleReviewDestini.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

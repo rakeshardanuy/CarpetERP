@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Wastage Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmwastagereport.aspx.cs" Inherits="Masters_ReportForms_frmwastagereport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmwastagereport" Codebehind="frmwastagereport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

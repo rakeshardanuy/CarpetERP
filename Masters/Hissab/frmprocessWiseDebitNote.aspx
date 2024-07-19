@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmprocessWiseDebitNote.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_Hissab_frmprocessWiseDebitNote" MasterPageFile="~/ERPmaster.master"
-    Title="DEBIT NOTE" EnableEventValidation="false" %>
+    Title="DEBIT NOTE" EnableEventValidation="false" Codebehind="frmprocessWiseDebitNote.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,6 +1,6 @@
-﻿<%@ Page Title="BranchMaster" Language="C#" AutoEventWireup="true" CodeFile="frmBranchMaster.aspx.cs"
+﻿<%@ Page Title="BranchMaster" Language="C#" AutoEventWireup="true"
     Inherits="Masters_Campany_frmBranchMaster" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="frmBranchMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="Page" ContentPlaceHolderID="CPH_Form" runat="server">

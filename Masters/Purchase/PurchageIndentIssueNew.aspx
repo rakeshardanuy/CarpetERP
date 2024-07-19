@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PurchageIndentIssueNew.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Title="Purchase Order" EnableEventValidation="false" MasterPageFile="~/ERPmaster.master"
-    Inherits="Masters_Purchase_PurchageIndentIssueNew" %>
+    Inherits="Masters_Purchase_PurchageIndentIssueNew" Codebehind="PurchageIndentIssueNew.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

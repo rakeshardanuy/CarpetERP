@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Vendor Allocation Report" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="VendorAllocationReport.aspx.cs" Inherits="VendorAllocationReport" %>
+    AutoEventWireup="true" Inherits="VendorAllocationReport" Codebehind="VendorAllocationReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

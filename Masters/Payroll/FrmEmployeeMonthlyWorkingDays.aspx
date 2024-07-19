@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Employee Monthly Working Days" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmEmployeeMonthlyWorkingDays.aspx.cs" Inherits="Masters_Payroll_FrmEmployeeMonthlyWorkingDays" %>
+    AutoEventWireup="true" Inherits="Masters_Payroll_FrmEmployeeMonthlyWorkingDays" Codebehind="FrmEmployeeMonthlyWorkingDays.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

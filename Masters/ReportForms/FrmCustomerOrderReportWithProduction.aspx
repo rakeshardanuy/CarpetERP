@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmCustomerOrderReportWithProduction.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_FrmCustomerOrderReportWithProduction" MasterPageFile="~/ERPmaster.master"
-    Title="Order Status Report" EnableEventValidation="false" %>
+    Title="Order Status Report" EnableEventValidation="false" Codebehind="FrmCustomerOrderReportWithProduction.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

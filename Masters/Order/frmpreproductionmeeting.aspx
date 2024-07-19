@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Pre Production Meeting" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmpreproductionmeeting.aspx.cs" Inherits="Masters_Order_frmpreproductionmeeting" %>
+    AutoEventWireup="true" Inherits="Masters_Order_frmpreproductionmeeting" Codebehind="frmpreproductionmeeting.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

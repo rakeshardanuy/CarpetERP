@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddColor.aspx.cs" Inherits="Masters_Carpet_AddColor"
-    EnableEventValidation="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Masters_Carpet_AddColor"
+    EnableEventValidation="false" Codebehind="AddColor.aspx.cs" %>
 
 <%@ Register Src="~/UserControls/MasterColor.ascx" TagPrefix="uc" TagName="MasterColor" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

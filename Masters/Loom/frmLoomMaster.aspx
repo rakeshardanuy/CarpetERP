@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Loom Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmLoomMaster.aspx.cs" Inherits="Masters_Loom_frmLoomMaster" %>
+﻿<%@ Page Title="Loom Master" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Loom_frmLoomMaster" Codebehind="frmLoomMaster.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script src="../../Scripts/JScript.js" type="text/javascript"></script>

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="PRODUCTION ORDER" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmIssueOrderNoConsumptionExtraPercentage.aspx.cs"
-    Inherits="Masters_Loom_FrmIssueOrderNoConsumptionExtraPercentage" %>
+    AutoEventWireup="true"
+    Inherits="Masters_Loom_FrmIssueOrderNoConsumptionExtraPercentage" Codebehind="FrmIssueOrderNoConsumptionExtraPercentage.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Size" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master"
-    CodeFile="FrmNewSize.aspx.cs" Inherits="Masters_Carpet_FrmNewSize" EnableEventValidation="false" %>
+﻿<%@ Page Title="Size" Language="C#" AutoEventWireup="true" MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_FrmNewSize" EnableEventValidation="false" Codebehind="FrmNewSize.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

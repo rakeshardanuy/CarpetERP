@@ -1,5 +1,4 @@
-﻿<%@ Page Title="PACKING TYPE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmpackingtype.aspx.cs" Inherits="Masters_Packing_frmpackingtype" EnableEventValidation="false" %>
+﻿<%@ Page Title="PACKING TYPE" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Packing_frmpackingtype" EnableEventValidation="false" Codebehind="frmpackingtype.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

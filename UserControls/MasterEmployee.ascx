@@ -1,5 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="MasterEmployee.ascx.cs"
-    Inherits="UserControls_MasterEmployee" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true"
+    Inherits="UserControls_MasterEmployee" Codebehind="MasterEmployee.ascx.cs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <link href="../../Styles/vijay.css" rel="stylesheet" type="text/css" />
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>

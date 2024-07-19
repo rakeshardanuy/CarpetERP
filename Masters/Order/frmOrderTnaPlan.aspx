@@ -1,6 +1,6 @@
-﻿<%@ Page Title="T&A PLAN" Language="C#" AutoEventWireup="true" CodeFile="frmOrderTnaPlan.aspx.cs"
+﻿<%@ Page Title="T&A PLAN" Language="C#" AutoEventWireup="true"
     Inherits="Masters_Order_frmOrderTnaPlan" MasterPageFile="~/ERPmaster.master"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="frmOrderTnaPlan.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

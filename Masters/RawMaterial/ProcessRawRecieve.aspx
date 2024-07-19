@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Weaver Raw Receive" Language="C#" AutoEventWireup="true" CodeFile="ProcessRawRecieve.aspx.cs"
-    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Inherits="Masters_RawMaterial_ProcessRawRecieve" %>
+﻿<%@ Page Title="Weaver Raw Receive" Language="C#" AutoEventWireup="true"
+    EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Inherits="Masters_RawMaterial_ProcessRawRecieve" Codebehind="ProcessRawRecieve.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

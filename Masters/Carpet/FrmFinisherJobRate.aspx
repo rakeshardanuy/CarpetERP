@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" Title="FinisherJobRate" AutoEventWireup="true" EnableEventValidation="false"
-    MasterPageFile="~/ERPmaster.master" CodeFile="FrmFinisherJobRate.aspx.cs" Inherits="Masters_Carpet_FrmFinisherJobRate" %>
+    MasterPageFile="~/ERPmaster.master" Inherits="Masters_Carpet_FrmFinisherJobRate" Codebehind="FrmFinisherJobRate.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

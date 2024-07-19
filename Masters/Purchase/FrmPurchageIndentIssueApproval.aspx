@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Purchase Order Approval" Language="C#" AutoEventWireup="true" CodeFile="FrmPurchageIndentIssueApproval.aspx.cs"
+﻿<%@ Page Title="Purchase Order Approval" Language="C#" AutoEventWireup="true"
     MasterPageFile="~/ERPmaster.master" Inherits="Masters_Purchase_FrmPurchageIndentIssueApproval"
-    EnableEventValidation="false" %>
+    EnableEventValidation="false" Codebehind="FrmPurchageIndentIssueApproval.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>

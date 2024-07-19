@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Advance/Loan" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true"
-    CodeFile="frmadvance_Loanmaster.aspx.cs" Inherits="Masters_Payroll_frmadvance_Loanmaster" %>
+﻿<%@ Page Title="Advance/Loan" Language="C#" MasterPageFile="~/ERPmaster.master" AutoEventWireup="true" Inherits="Masters_Payroll_frmadvance_Loanmaster" Codebehind="frmadvance_Loanmaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

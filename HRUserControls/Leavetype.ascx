@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Leavetype.ascx.cs" Inherits="HRUserControls_Leavetype" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="HRUserControls_Leavetype" Codebehind="Leavetype.ascx.cs" %>
 <script src="../../Scripts/JScript.js" type="text/javascript"></script>
 <script src="../../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
 <script type="text/javascript">

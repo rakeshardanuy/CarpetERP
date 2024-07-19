@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="GATE IN/OUT REGISTER REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmGateInOutRegisterReport.aspx.cs" Inherits="Masters_ReportForms_FrmGateInOutRegisterReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmGateInOutRegisterReport" Codebehind="FrmGateInOutRegisterReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="DefineBomAndConsumption.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     EnableSessionState="True" EnableViewState="true" Inherits="Masters_Carpet_DefineBomAndConsumption"
-    EnableEventValidation="false" Title="Define Consumption" %>
+    EnableEventValidation="false" Title="Define Consumption" Codebehind="DefineBomAndConsumption.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

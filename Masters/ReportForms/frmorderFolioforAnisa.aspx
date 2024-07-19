@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmorderFolioforAnisa.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
     Inherits="Masters_ReportForms_frmorderFolioforAnisa" MasterPageFile="~/ERPmaster.master"
-    Title="ORDER FOLIO" %>
+    Title="ORDER FOLIO" Codebehind="frmorderFolioforAnisa.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="page" ContentPlaceHolderID="CPH_Form" runat="server">

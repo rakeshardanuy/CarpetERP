@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Issue Master PC" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmMasterPCIssRecOnFolio.aspx.cs" Inherits="Masters_Loom_FrmMasterPCIssRecOnFolio" %>
+    AutoEventWireup="true" Inherits="Masters_Loom_FrmMasterPCIssRecOnFolio" Codebehind="FrmMasterPCIssRecOnFolio.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">

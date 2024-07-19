@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Indent Raw Return" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmIndentRawMaterialReturn.aspx.cs" Inherits="Masters_RawMaterial_frmIndentRawMaterialReturn" %>
+    AutoEventWireup="true" Inherits="Masters_RawMaterial_frmIndentRawMaterialReturn" Codebehind="frmIndentRawMaterialReturn.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FrmBunkarMaster.aspx.cs"
-    Inherits="Masters_Campany_FrmBunkarMaster" EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_Campany_FrmBunkarMaster" EnableEventValidation="false" MasterPageFile="~/ERPmaster.master" Codebehind="FrmBunkarMaster.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

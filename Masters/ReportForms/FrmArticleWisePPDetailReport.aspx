@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="ARTICLE WISE PP DETAIL REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmArticleWisePPDetailReport.aspx.cs" Inherits="Masters_ReportForms_FrmArticleWisePPDetailReport" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmArticleWisePPDetailReport" Codebehind="FrmArticleWisePPDetailReport.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

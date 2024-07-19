@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="PRINT INVOICE" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="frmprintinvoice.aspx.cs" Inherits="Masters_ReportForms_frmprintinvoice" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_frmprintinvoice" Codebehind="frmprintinvoice.aspx.cs" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
     <script type="text/javascript">

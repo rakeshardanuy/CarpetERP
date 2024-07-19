@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="frmprocesspendingReport.aspx.cs"
-    Inherits="Masters_ReportForms_frmprocesspendingReport" MasterPageFile="~/ERPmaster.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    Inherits="Masters_ReportForms_frmprocesspendingReport" MasterPageFile="~/ERPmaster.master" Codebehind="frmprocesspendingReport.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ContentPlaceHolderID="CPH_Form" runat="server" ID="Page">

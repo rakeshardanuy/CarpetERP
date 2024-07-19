@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="PROCESS WISE HISSAB PAYMENT SUMMARY REPORT" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmProcessWiseHissabPaymentSummary.aspx.cs"
-    Inherits="Masters_ReportForms_FrmProcessWiseHissabPaymentSummary" %>
+    AutoEventWireup="true"
+    Inherits="Masters_ReportForms_FrmProcessWiseHissabPaymentSummary" Codebehind="FrmProcessWiseHissabPaymentSummary.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Bazaar TDS Details" Language="C#" MasterPageFile="~/ERPmaster.master"
-    AutoEventWireup="true" CodeFile="FrmBazaarTdsDetails.aspx.cs" Inherits="Masters_ReportForms_FrmBazaarTdsDetails" %>
+    AutoEventWireup="true" Inherits="Masters_ReportForms_FrmBazaarTdsDetails" Codebehind="FrmBazaarTdsDetails.aspx.cs" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPH_Form" runat="Server">
